@@ -1,0 +1,1338 @@
+TNautilusMarketXML
+v7
+r0
+t323532076.476649
+cCheck dependencies
+cCpResource build/Debug-iphoneos/NautilusMarketXML.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app/Info.plist" NautilusMarketXML-Info.plist
+cCompileXIB "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/MainWindow.xib"
+cCompileXIB "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/NautilusMarketXMLViewController.xib"
+cProcessPCH /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-axaqjdhqfbqlsvdkctrpoptponyd/NautilusMarketXML_Prefix.pch.gch NautilusMarketXML_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-exfqsohyqctlmkbtlvgjxgmpokpd/NautilusMarketXML_Prefix.pch.gch NautilusMarketXML_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/main.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/NautilusMarketXMLAppDelegate.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/NautilusMarketXMLAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/NautilusMarketXMLViewController.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/NautilusMarketXMLViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/XMLData.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/XMLData.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/Location.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/Location.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/Station.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/Station.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/MealPeriod.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/MealPeriod.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/MenuItem.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/MenuItem.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/GDataXMLNode.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/GDataXMLNode.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/ASINetworkQueue.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASINetworkQueue.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/ASIInputStream.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIInputStream.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/ASIHTTPRequest.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIHTTPRequest.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/ASIFormDataRequest.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIFormDataRequest.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/ASIDownloadCache.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDownloadCache.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/ASIDataDecompressor.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDataDecompressor.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/ASIDataCompressor.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDataCompressor.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/ASIAuthenticationDialog.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIAuthenticationDialog.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/Reachability.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Reachability/Reachability.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/main.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/NautilusMarketXMLAppDelegate.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/NautilusMarketXMLAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/NautilusMarketXMLViewController.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/NautilusMarketXMLViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/XMLData.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/XMLData.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/Location.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/Location.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/Station.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/Station.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/MealPeriod.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/MealPeriod.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/MenuItem.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/MenuItem.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/NautilusMarketXML" normal armv6
+cCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/GDataXMLNode.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/GDataXMLNode.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/ASINetworkQueue.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASINetworkQueue.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/ASIInputStream.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIInputStream.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/ASIHTTPRequest.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIHTTPRequest.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/ASIFormDataRequest.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIFormDataRequest.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/ASIDownloadCache.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDownloadCache.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/ASIDataDecompressor.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDataDecompressor.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/ASIDataCompressor.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDataCompressor.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/ASIAuthenticationDialog.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIAuthenticationDialog.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/Reachability.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Reachability/Reachability.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/NautilusMarketXML" normal armv7
+cCreateUniversalBinary "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app/NautilusMarketXML" normal "armv6 armv7"
+cGenerateDSYMFile "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app.dSYM" "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app/NautilusMarketXML"
+cProcessProductPackaging "/Users/admin/Library/MobileDevice/Provisioning Profiles/F7027F93-21DA-4960-B668-CEDB7C0F69D5.mobileprovision" "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app/embedded.mobileprovision"
+cTouch "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app"
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML.xcent"
+cCodeSign "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004CC10EEE00000000002C9710
+t1287720686
+s2922256
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetwork.h
+c000000004CC10EAD00000000000004CF
+t1287720621
+s1231
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c000000004CC10D700000000000000AB3
+t1287720304
+s2739
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MobileCoreServices.framework/Headers/MobileCoreServices.h
+c000000004CC1106800000000000000EB
+t1287721064
+s235
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004CC110680000000000094AF0
+t1287721064
+s609008
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1111C00000000000000C4
+t1287721244
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c000000004CC10E6A0000000000001A58
+t1287720554
+s6744
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004CC10E7900000000000B0C10
+t1287720569
+s723984
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/CommonCrypto/CommonHMAC.h
+c000000004CB3E44C0000000000000DE2
+t1286857804
+s3554
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/arpa/inet.h
+c000000004CB3E4790000000000001533
+t1286857849
+s5427
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/ifaddrs.h
+c000000004CB3E4840000000000000782
+t1286857860
+s1922
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml/parser.h
+c000000004CC10E3400000000000098A9
+t1287720500
+s39081
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml/tree.h
+c000000004CC10E340000000000008F14
+t1287720500
+s36628
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml/xmlstring.h
+c000000004CC10E34000000000000155A
+t1287720500
+s5466
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml/xpath.h
+c000000004CC10E340000000000003F47
+t1287720500
+s16199
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml/xpathInternals.h
+c000000004CC10E340000000000004BF8
+t1287720500
+s19448
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/netdb.h
+c000000004CB3E4A0000000000000307F
+t1286857888
+s12415
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/netinet/in.h
+c000000004CBFACDD0000000000005462
+t1287630045
+s21602
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/netinet6/in6.h
+c000000004CBFACCD0000000000004F61
+t1287630029
+s20321
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/stdio.h
+c000000004CB3E4B800000000000040AC
+t1286857912
+s16556
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/sys/socket.h
+c000000004CBFACD80000000000005A69
+t1287630040
+s23145
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/zlib.h
+c000000004CC1053F00000000000102A5
+t1287718207
+s66213
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/lib/libz.1.2.3.dylib
+c000000004CC105400000000000020FF0
+t1287718208
+s135152
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIAuthenticationDialog.h
+c000000004D9075A20000000000000453
+t1301312930
+s1107
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIAuthenticationDialog.m
+c000000004D9075A20000000000003DED
+t1301312930
+s15853
+i"ASIAuthenticationDialog.h"
+i"ASIHTTPRequest.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASICacheDelegate.h
+c000000004D9075A200000000000011D1
+t1301312930
+s4561
+i<Foundation/Foundation.h>
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDataCompressor.h
+c000000004D9075A2000000000000072C
+t1301312930
+s1836
+i<Foundation/Foundation.h>
+i<zlib.h>
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDataCompressor.m
+c000000004D9075A20000000000001AAD
+t1301312930
+s6829
+i"ASIDataCompressor.h"
+i"ASIHTTPRequest.h"
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDataDecompressor.h
+c000000004D9075A200000000000006A3
+t1301312930
+s1699
+i<Foundation/Foundation.h>
+i<zlib.h>
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDataDecompressor.m
+c000000004D9075A20000000000001968
+t1301312930
+s6504
+i"ASIDataDecompressor.h"
+i"ASIHTTPRequest.h"
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDownloadCache.h
+c000000004D9075A20000000000000812
+t1301312930
+s2066
+i<Foundation/Foundation.h>
+i"ASICacheDelegate.h"
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDownloadCache.m
+c000000004D9075A2000000000000420D
+t1301312930
+s16909
+i"ASIDownloadCache.h"
+i"ASIHTTPRequest.h"
+i<CommonCrypto/CommonHMAC.h>
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIFormDataRequest.h
+c000000004D9075A20000000000000A6D
+t1301312930
+s2669
+i<Foundation/Foundation.h>
+i"ASIHTTPRequest.h"
+i"ASIHTTPRequestConfig.h"
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIFormDataRequest.m
+c000000004D9075A20000000000002B6A
+t1301312930
+s11114
+i"ASIFormDataRequest.h"
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIHTTPRequest.h
+c000000004D9075A2000000000000AB64
+t1301312930
+s43876
+i<Foundation/Foundation.h>
+i<CFNetwork/CFNetwork.h>
+i<UIKit/UIKit.h>
+i<stdio.h>
+i"ASIHTTPRequestConfig.h"
+i"ASIHTTPRequestDelegate.h"
+i"ASIProgressDelegate.h"
+i"ASICacheDelegate.h"
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIHTTPRequest.m
+c000000004D9075A2000000000002A041
+t1301312930
+s172097
+i"ASIHTTPRequest.h"
+i"Reachability.h"
+i"ASIAuthenticationDialog.h"
+i<MobileCoreServices/MobileCoreServices.h>
+i<SystemConfiguration/SystemConfiguration.h>
+i"ASIInputStream.h"
+i"ASIDataDecompressor.h"
+i"ASIDataCompressor.h"
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIHTTPRequestConfig.h
+c000000004D9075A200000000000003B0
+t1301312930
+s944
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIHTTPRequestDelegate.h
+c000000004D9075A2000000000000063E
+t1301312930
+s1598
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIInputStream.h
+c000000004D9075A200000000000003C9
+t1301312930
+s969
+i<Foundation/Foundation.h>
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIInputStream.m
+c000000004D9075A20000000000000C14
+t1301312930
+s3092
+i"ASIInputStream.h"
+i"ASIHTTPRequest.h"
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASINetworkQueue.h
+c000000004D9075A2000000000000120D
+t1301312930
+s4621
+i<Foundation/Foundation.h>
+i"ASIHTTPRequestDelegate.h"
+i"ASIProgressDelegate.h"
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASINetworkQueue.m
+c000000004D9075A20000000000002C8D
+t1301312930
+s11405
+i"ASINetworkQueue.h"
+i"ASIHTTPRequest.h"
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIProgressDelegate.h
+c000000004D9075A20000000000000678
+t1301312930
+s1656
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/Location.h
+c000000004D97E75D0000000000000176
+t1301800797
+s374
+i<Foundation/Foundation.h>
+i"Station.h"
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/Location.m
+c000000004D97899C00000000000000D4
+t1301776796
+s212
+i"Location.h"
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/MealPeriod.h
+c000000004D97933D000000000000017C
+t1301779261
+s380
+i<Foundation/Foundation.h>
+i"MenuItem.h"
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/MealPeriod.m
+c000000004D978CE400000000000000DA
+t1301777636
+s218
+i"MealPeriod.h"
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/MenuItem.h
+c000000004D978D8F000000000000010A
+t1301777807
+s266
+i<Foundation/Foundation.h>
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/MenuItem.m
+c000000004D978D7900000000000000D4
+t1301777785
+s212
+i"MenuItem.h"
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/NautilusMarketXMLAppDelegate.h
+c000000004D9781440000000000000227
+t1301774660
+s551
+i<UIKit/UIKit.h>
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/NautilusMarketXMLAppDelegate.m
+c000000004D9781440000000000000AD3
+t1301774660
+s2771
+i"NautilusMarketXMLAppDelegate.h"
+i"NautilusMarketXMLViewController.h"
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/NautilusMarketXMLViewController.h
+c000000004D987BE7000000000000019C
+t1301838823
+s412
+i<UIKit/UIKit.h>
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/NautilusMarketXMLViewController.m
+c000000004D987AB90000000000000B4A
+t1301838521
+s2890
+i"NautilusMarketXMLViewController.h"
+i"GDataXMLNode.h"
+i"ASIHTTPRequest.h"
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/Station.h
+c000000004D978C290000000000000132
+t1301777449
+s306
+i<Foundation/Foundation.h>
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/Station.m
+c000000004D978AD400000000000000D1
+t1301777108
+s209
+i"Station.h"
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/XMLData.h
+c000000004D978F580000000000000156
+t1301778264
+s342
+i<Foundation/Foundation.h>
+i"Location.h"
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/XMLData.m
+c000000004D97884A00000000000000D1
+t1301776458
+s209
+i"XMLData.h"
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/GDataXMLNode.h
+c000000004D9819630000000000001BD1
+t1301813603
+s7121
+i<Foundation/Foundation.h>
+i<libxml/tree.h>
+i<libxml/parser.h>
+i<libxml/xmlstring.h>
+i<libxml/xpath.h>
+i<libxml/xpathInternals.h>
+i"GDataDefines.h"
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/GDataXMLNode.m
+c000000004A4D0A80000000000000C7C8
+t1246562944
+s51144
+i"GDataXMLNode.h"
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/MainWindow.xib
+c000000004D9781440000000000004EA1
+t1301774660
+s20129
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/NautilusMarketXMLViewController.xib
+c000000004D987D5F00000000000056D3
+t1301839199
+s22227
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/NautilusMarketXML_Prefix.pch
+c000000004D9821EE0000000000000140
+t1301815790
+s320
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Reachability/Reachability.h
+c000000004D9075A20000000000001D0E
+t1301312930
+s7438
+i<Foundation/Foundation.h>
+i<SystemConfiguration/SystemConfiguration.h>
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Reachability/Reachability.m
+c000000004D9075A20000000000005E0C
+t1301312930
+s24076
+i<sys/socket.h>
+i<netinet/in.h>
+i<netinet6/in6.h>
+i<arpa/inet.h>
+i<ifaddrs.h>
+i<netdb.h>
+i<CoreFoundation/CoreFoundation.h>
+i"Reachability.h"
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app
+t1301839276
+s374
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app.dSYM
+t1301839275
+s102
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app/Info.plist
+t1301839268
+s827
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app/MainWindow.nib
+t1301839268
+s1143
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app/NautilusMarketXML
+t1301839275
+s824000
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app/NautilusMarketXMLViewController.nib
+t1301839268
+s1753
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app/PkgInfo
+t1301839268
+s8
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app/ResourceRules.plist
+t1301839268
+s485
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app/embedded.mobileprovision
+t1301839275
+s7429
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML.xcent
+t1301839275
+s440
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/ASIAuthenticationDialog.o
+t1301839272
+s103704
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/ASIDataCompressor.o
+t1301839271
+s22744
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/ASIDataDecompressor.o
+t1301839271
+s22648
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/ASIDownloadCache.o
+t1301839271
+s58312
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/ASIFormDataRequest.o
+t1301839271
+s45336
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/ASIHTTPRequest.o
+t1301839273
+s464184
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/ASIInputStream.o
+t1301839270
+s27388
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/ASINetworkQueue.o
+t1301839270
+s56860
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/GDataXMLNode.o
+t1301839270
+s88300
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/Location.o
+t1301839270
+s6100
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/MealPeriod.o
+t1301839270
+s6136
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/MenuItem.o
+t1301839270
+s5648
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/NautilusMarketXML
+t1301839273
+s415320
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/NautilusMarketXML.LinkFileList
+c000000004D987DA40000000000000B6F
+t1301839268
+s2927
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/NautilusMarketXMLAppDelegate.o
+t1301839270
+s51356
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/NautilusMarketXMLViewController.o
+t1301839270
+s54136
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/Reachability.o
+t1301839272
+s32132
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/Station.o
+t1301839270
+s5852
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/XMLData.o
+t1301839270
+s5864
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/main.o
+t1301839270
+s6480
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/ASIAuthenticationDialog.o
+t1301839274
+s102552
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/ASIDataCompressor.o
+t1301839274
+s22636
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/ASIDataDecompressor.o
+t1301839274
+s22584
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/ASIDownloadCache.o
+t1301839274
+s57124
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/ASIFormDataRequest.o
+t1301839273
+s44428
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/ASIHTTPRequest.o
+t1301839275
+s455148
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/ASIInputStream.o
+t1301839273
+s27120
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/ASINetworkQueue.o
+t1301839273
+s56252
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/GDataXMLNode.o
+t1301839273
+s85224
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/Location.o
+t1301839272
+s6100
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/MealPeriod.o
+t1301839273
+s6136
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/MenuItem.o
+t1301839273
+s5648
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/NautilusMarketXML
+t1301839275
+s402112
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/NautilusMarketXML.LinkFileList
+c000000004D987DA40000000000000B6F
+t1301839268
+s2927
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/NautilusMarketXMLAppDelegate.o
+t1301839272
+s51276
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/NautilusMarketXMLViewController.o
+t1301839272
+s54004
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/Reachability.o
+t1301839274
+s31296
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/Station.o
+t1301839272
+s5852
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/XMLData.o
+t1301839272
+s5864
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/main.o
+t1301839272
+s6464
+
+N/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/main.m
+c000000004D978144000000000000017F
+t1301774660
+s383
+i<UIKit/UIKit.h>
+
+N/Users/admin/Library/MobileDevice/Provisioning Profiles/F7027F93-21DA-4960-B668-CEDB7C0F69D5.mobileprovision
+c000000004D2F17570000000000001D05
+t1294931799
+s7429
+
+N/var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-axaqjdhqfbqlsvdkctrpoptponyd/NautilusMarketXML_Prefix.pch.gch
+t1301839269
+s9983704
+
+N/var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-exfqsohyqctlmkbtlvgjxgmpokpd/NautilusMarketXML_Prefix.pch.gch
+t1301839269
+s10446552
+
+NNautilusMarketXML-Info.plist
+c000000004D978144000000000000038D
+t1301774660
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies323532068#323532068#0(0"0(0#1#0"8620662912#0"0#
+
+CCodeSign "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app"
+s323532075.921028
+e323532076.476518
+r1
+xCodeSign
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app
+lSLF07#2@51"CodeSign build/Debug-iphoneos/NautilusMarketXML.app323532075#323532076#0(0"0(0#0#97"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app8614426336#775"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Janusz Chudzynski (ZJ65ELZNVA)" "--resource-rules=/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app/ResourceRules.plist" --entitlements "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML.xcent" "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app"0#
+
+CCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/ASIAuthenticationDialog.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIAuthenticationDialog.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323532071.757824
+e323532072.165827
+r1
+xCompileC
+xbuild/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/ASIAuthenticationDialog.o
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIAuthenticationDialog.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIAuthenticationDialog.m323532071#323532072#0(0"0(0#0#80"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIAuthenticationDialog.m8617894400#2351"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-generated-files.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-own-target-headers.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-project-headers.hmap" "-F/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources/armv6" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources" -include /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-axaqjdhqfbqlsvdkctrpoptponyd/NautilusMarketXML_Prefix.pch -c "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIAuthenticationDialog.m" -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/ASIAuthenticationDialog.o"0#
+
+CCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/ASIDataCompressor.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDataCompressor.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323532071.612540
+e323532071.757710
+r1
+xCompileC
+xbuild/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/ASIDataCompressor.o
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDataCompressor.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDataCompressor.m323532071#323532071#0(0"0(0#0#74"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDataCompressor.m8613560032#2339"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-generated-files.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-own-target-headers.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-project-headers.hmap" "-F/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources/armv6" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources" -include /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-axaqjdhqfbqlsvdkctrpoptponyd/NautilusMarketXML_Prefix.pch -c "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDataCompressor.m" -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/ASIDataCompressor.o"0#
+
+CCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/ASIDataDecompressor.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDataDecompressor.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323532071.486880
+e323532071.612414
+r1
+xCompileC
+xbuild/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/ASIDataDecompressor.o
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDataDecompressor.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDataDecompressor.m323532071#323532071#0(0"0(0#0#76"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDataDecompressor.m8617268192#2343"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-generated-files.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-own-target-headers.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-project-headers.hmap" "-F/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources/armv6" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources" -include /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-axaqjdhqfbqlsvdkctrpoptponyd/NautilusMarketXML_Prefix.pch -c "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDataDecompressor.m" -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/ASIDataDecompressor.o"0#
+
+CCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/ASIDownloadCache.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDownloadCache.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323532071.225627
+e323532071.486690
+r1
+xCompileC
+xbuild/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/ASIDownloadCache.o
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDownloadCache.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDownloadCache.m323532071#323532071#0(0"0(0#0#73"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDownloadCache.m8617397472#2337"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-generated-files.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-own-target-headers.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-project-headers.hmap" "-F/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources/armv6" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources" -include /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-axaqjdhqfbqlsvdkctrpoptponyd/NautilusMarketXML_Prefix.pch -c "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDownloadCache.m" -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/ASIDownloadCache.o"0#
+
+CCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/ASIFormDataRequest.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIFormDataRequest.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323532070.995846
+e323532071.225506
+r1
+xCompileC
+xbuild/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/ASIFormDataRequest.o
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIFormDataRequest.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIFormDataRequest.m323532070#323532071#0(0"0(0#0#75"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIFormDataRequest.m8603220800#2341"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-generated-files.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-own-target-headers.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-project-headers.hmap" "-F/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources/armv6" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources" -include /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-axaqjdhqfbqlsvdkctrpoptponyd/NautilusMarketXML_Prefix.pch -c "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIFormDataRequest.m" -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/ASIFormDataRequest.o"0#
+
+CCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/ASIHTTPRequest.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIHTTPRequest.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323532070.841989
+e323532073.072503
+r1
+xCompileC
+xbuild/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/ASIHTTPRequest.o
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIHTTPRequest.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIHTTPRequest.m323532070#323532073#0(0"0(0#0#71"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIHTTPRequest.m8615563200#2333"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-generated-files.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-own-target-headers.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-project-headers.hmap" "-F/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources/armv6" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources" -include /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-axaqjdhqfbqlsvdkctrpoptponyd/NautilusMarketXML_Prefix.pch -c "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIHTTPRequest.m" -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/ASIHTTPRequest.o"0#
+
+CCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/ASIInputStream.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIInputStream.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323532070.714504
+e323532070.841614
+r1
+xCompileC
+xbuild/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/ASIInputStream.o
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIInputStream.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIInputStream.m323532070#323532070#0(0"0(0#0#71"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIInputStream.m8618742208#2333"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-generated-files.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-own-target-headers.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-project-headers.hmap" "-F/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources/armv6" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources" -include /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-axaqjdhqfbqlsvdkctrpoptponyd/NautilusMarketXML_Prefix.pch -c "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIInputStream.m" -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/ASIInputStream.o"0#
+
+CCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/ASINetworkQueue.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASINetworkQueue.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323532070.448366
+e323532070.714377
+r1
+xCompileC
+xbuild/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/ASINetworkQueue.o
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASINetworkQueue.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASINetworkQueue.m323532070#323532070#0(0"0(0#0#72"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASINetworkQueue.m8602737152#2335"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-generated-files.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-own-target-headers.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-project-headers.hmap" "-F/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources/armv6" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources" -include /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-axaqjdhqfbqlsvdkctrpoptponyd/NautilusMarketXML_Prefix.pch -c "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASINetworkQueue.m" -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/ASINetworkQueue.o"0#
+
+CCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/GDataXMLNode.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/GDataXMLNode.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323532070.389386
+e323532070.995726
+r1
+xCompileC
+xbuild/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/GDataXMLNode.o
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/GDataXMLNode.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/admin/Desktop/Course COP 3990/NautilusMarketXML/GDataXMLNode.m323532070#323532071#0(0"0(0#0#69"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/GDataXMLNode.m8615171712#2329"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-generated-files.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-own-target-headers.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-project-headers.hmap" "-F/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources/armv6" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources" -include /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-axaqjdhqfbqlsvdkctrpoptponyd/NautilusMarketXML_Prefix.pch -c "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/GDataXMLNode.m" -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/GDataXMLNode.o"0#
+
+CCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/Location.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/Location.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323532070.168837
+e323532070.234815
+r1
+xCompileC
+xbuild/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/Location.o
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/Location.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/Location.m323532070#323532070#0(0"0(0#0#73"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/Location.m8603247392#2329"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-generated-files.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-own-target-headers.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-project-headers.hmap" "-F/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources/armv6" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources" -include /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-axaqjdhqfbqlsvdkctrpoptponyd/NautilusMarketXML_Prefix.pch -c "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/Location.m" -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/Location.o"0#
+
+CCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/MealPeriod.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/MealPeriod.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323532070.310002
+e323532070.389267
+r1
+xCompileC
+xbuild/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/MealPeriod.o
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/MealPeriod.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/MealPeriod.m323532070#323532070#0(0"0(0#0#75"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/MealPeriod.m8611811072#2333"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-generated-files.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-own-target-headers.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-project-headers.hmap" "-F/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources/armv6" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources" -include /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-axaqjdhqfbqlsvdkctrpoptponyd/NautilusMarketXML_Prefix.pch -c "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/MealPeriod.m" -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/MealPeriod.o"0#
+
+CCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/MenuItem.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/MenuItem.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323532070.374660
+e323532070.448248
+r1
+xCompileC
+xbuild/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/MenuItem.o
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/MenuItem.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/MenuItem.m323532070#323532070#0(0"0(0#0#73"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/MenuItem.m8618068160#2329"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-generated-files.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-own-target-headers.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-project-headers.hmap" "-F/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources/armv6" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources" -include /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-axaqjdhqfbqlsvdkctrpoptponyd/NautilusMarketXML_Prefix.pch -c "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/MenuItem.m" -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/MenuItem.o"0#
+
+CCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/NautilusMarketXMLAppDelegate.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/NautilusMarketXMLAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323532069.965195
+e323532070.109053
+r1
+xCompileC
+xbuild/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/NautilusMarketXMLAppDelegate.o
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/NautilusMarketXMLAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/NautilusMarketXMLAppDelegate.m323532069#323532070#0(0"0(0#0#93"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/NautilusMarketXMLAppDelegate.m8618430848#2369"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-generated-files.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-own-target-headers.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-project-headers.hmap" "-F/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources/armv6" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources" -include /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-axaqjdhqfbqlsvdkctrpoptponyd/NautilusMarketXML_Prefix.pch -c "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/NautilusMarketXMLAppDelegate.m" -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/NautilusMarketXMLAppDelegate.o"0#
+
+CCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/NautilusMarketXMLViewController.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/NautilusMarketXMLViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323532070.084298
+e323532070.374516
+r1
+xCompileC
+xbuild/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/NautilusMarketXMLViewController.o
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/NautilusMarketXMLViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/NautilusMarketXMLViewController.m: In function '-[NautilusMarketXMLViewController requestFailed:]':
+o/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/NautilusMarketXMLViewController.m:54: warning: unused variable 'error'
+lSLF07#2@104"Compile /Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/NautilusMarketXMLViewController.m323532070#323532070#0(297"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/NautilusMarketXMLViewController.m: In function '-[NautilusMarketXMLViewController requestFailed:]':/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/NautilusMarketXMLViewController.m:54: warning: unused variable 'error'1(22@23"Unused variable 'error'323532070#163#134#0(6@96"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/NautilusMarketXMLViewController.m323531321#54#0#54#0#19"unused variable '*'0(0#0#96"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/NautilusMarketXMLViewController.m8616290400#2375"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-generated-files.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-own-target-headers.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-project-headers.hmap" "-F/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources/armv6" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources" -include /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-axaqjdhqfbqlsvdkctrpoptponyd/NautilusMarketXML_Prefix.pch -c "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/NautilusMarketXMLViewController.m" -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/NautilusMarketXMLViewController.o"0#
+
+CCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/Reachability.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Reachability/Reachability.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323532072.165944
+e323532072.347308
+r1
+xCompileC
+xbuild/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/Reachability.o
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Reachability/Reachability.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Reachability/Reachability.m323532072#323532072#0(0"0(0#0#82"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Reachability/Reachability.m8617920352#2342"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-generated-files.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-own-target-headers.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-project-headers.hmap" "-F/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources/armv6" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources" -include /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-axaqjdhqfbqlsvdkctrpoptponyd/NautilusMarketXML_Prefix.pch -c "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Reachability/Reachability.m" -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/Reachability.o"0#
+
+CCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/Station.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/Station.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323532070.235036
+e323532070.309881
+r1
+xCompileC
+xbuild/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/Station.o
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/Station.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/Station.m323532070#323532070#0(0"0(0#0#72"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/Station.m8620543424#2327"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-generated-files.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-own-target-headers.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-project-headers.hmap" "-F/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources/armv6" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources" -include /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-axaqjdhqfbqlsvdkctrpoptponyd/NautilusMarketXML_Prefix.pch -c "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/Station.m" -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/Station.o"0#
+
+CCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/XMLData.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/XMLData.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323532070.109220
+e323532070.168717
+r1
+xCompileC
+xbuild/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/XMLData.o
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/XMLData.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/XMLData.m323532070#323532070#0(0"0(0#0#72"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/XMLData.m8613970752#2327"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-generated-files.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-own-target-headers.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-project-headers.hmap" "-F/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources/armv6" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources" -include /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-axaqjdhqfbqlsvdkctrpoptponyd/NautilusMarketXML_Prefix.pch -c "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/XMLData.m" -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/XMLData.o"0#
+
+CCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/main.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323532069.963753
+e323532070.084179
+r1
+xCompileC
+xbuild/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/main.o
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/admin/Desktop/Course COP 3990/NautilusMarketXML/main.m323532069#323532070#0(0"0(0#0#61"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/main.m8620440160#2313"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-generated-files.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-own-target-headers.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-project-headers.hmap" "-F/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources/armv6" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources" -include /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-axaqjdhqfbqlsvdkctrpoptponyd/NautilusMarketXML_Prefix.pch -c "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/main.m" -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/main.o"0#
+
+CCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/ASIAuthenticationDialog.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIAuthenticationDialog.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323532074.442718
+e323532074.688497
+r1
+xCompileC
+xbuild/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/ASIAuthenticationDialog.o
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIAuthenticationDialog.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIAuthenticationDialog.m323532074#323532074#0(0"0(0#0#80"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIAuthenticationDialog.m8615375264#2351"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-generated-files.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-own-target-headers.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-project-headers.hmap" "-F/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources/armv7" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources" -include /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-exfqsohyqctlmkbtlvgjxgmpokpd/NautilusMarketXML_Prefix.pch -c "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIAuthenticationDialog.m" -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/ASIAuthenticationDialog.o"0#
+
+CCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/ASIDataCompressor.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDataCompressor.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323532074.311515
+e323532074.442606
+r1
+xCompileC
+xbuild/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/ASIDataCompressor.o
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDataCompressor.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDataCompressor.m323532074#323532074#0(0"0(0#0#74"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDataCompressor.m8620641440#2339"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-generated-files.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-own-target-headers.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-project-headers.hmap" "-F/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources/armv7" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources" -include /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-exfqsohyqctlmkbtlvgjxgmpokpd/NautilusMarketXML_Prefix.pch -c "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDataCompressor.m" -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/ASIDataCompressor.o"0#
+
+CCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/ASIDataDecompressor.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDataDecompressor.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323532074.178170
+e323532074.311396
+r1
+xCompileC
+xbuild/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/ASIDataDecompressor.o
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDataDecompressor.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDataDecompressor.m323532074#323532074#0(0"0(0#0#76"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDataDecompressor.m8611878240#2343"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-generated-files.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-own-target-headers.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-project-headers.hmap" "-F/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources/armv7" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources" -include /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-exfqsohyqctlmkbtlvgjxgmpokpd/NautilusMarketXML_Prefix.pch -c "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDataDecompressor.m" -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/ASIDataDecompressor.o"0#
+
+CCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/ASIDownloadCache.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDownloadCache.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323532073.964048
+e323532074.178048
+r1
+xCompileC
+xbuild/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/ASIDownloadCache.o
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDownloadCache.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDownloadCache.m323532073#323532074#0(0"0(0#0#73"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDownloadCache.m8617635136#2337"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-generated-files.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-own-target-headers.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-project-headers.hmap" "-F/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources/armv7" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources" -include /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-exfqsohyqctlmkbtlvgjxgmpokpd/NautilusMarketXML_Prefix.pch -c "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIDownloadCache.m" -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/ASIDownloadCache.o"0#
+
+CCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/ASIFormDataRequest.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIFormDataRequest.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323532073.776373
+e323532073.963925
+r1
+xCompileC
+xbuild/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/ASIFormDataRequest.o
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIFormDataRequest.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIFormDataRequest.m323532073#323532073#0(0"0(0#0#75"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIFormDataRequest.m8614000992#2341"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-generated-files.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-own-target-headers.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-project-headers.hmap" "-F/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources/armv7" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources" -include /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-exfqsohyqctlmkbtlvgjxgmpokpd/NautilusMarketXML_Prefix.pch -c "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIFormDataRequest.m" -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/ASIFormDataRequest.o"0#
+
+CCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/ASIHTTPRequest.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIHTTPRequest.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323532073.754016
+e323532075.328694
+r1
+xCompileC
+xbuild/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/ASIHTTPRequest.o
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIHTTPRequest.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIHTTPRequest.m323532073#323532075#0(0"0(0#0#71"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIHTTPRequest.m8612855648#2333"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-generated-files.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-own-target-headers.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-project-headers.hmap" "-F/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources/armv7" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources" -include /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-exfqsohyqctlmkbtlvgjxgmpokpd/NautilusMarketXML_Prefix.pch -c "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIHTTPRequest.m" -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/ASIHTTPRequest.o"0#
+
+CCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/ASIInputStream.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIInputStream.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323532073.644404
+e323532073.776229
+r1
+xCompileC
+xbuild/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/ASIInputStream.o
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIInputStream.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIInputStream.m323532073#323532073#0(0"0(0#0#71"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIInputStream.m8618891648#2333"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-generated-files.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-own-target-headers.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-project-headers.hmap" "-F/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources/armv7" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources" -include /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-exfqsohyqctlmkbtlvgjxgmpokpd/NautilusMarketXML_Prefix.pch -c "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASIInputStream.m" -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/ASIInputStream.o"0#
+
+CCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/ASINetworkQueue.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASINetworkQueue.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323532073.460278
+e323532073.644281
+r1
+xCompileC
+xbuild/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/ASINetworkQueue.o
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASINetworkQueue.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASINetworkQueue.m323532073#323532073#0(0"0(0#0#72"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASINetworkQueue.m8617314400#2335"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-generated-files.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-own-target-headers.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-project-headers.hmap" "-F/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources/armv7" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources" -include /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-exfqsohyqctlmkbtlvgjxgmpokpd/NautilusMarketXML_Prefix.pch -c "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/ASINetworkQueue.m" -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/ASINetworkQueue.o"0#
+
+CCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/GDataXMLNode.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/GDataXMLNode.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323532073.155135
+e323532073.460155
+r1
+xCompileC
+xbuild/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/GDataXMLNode.o
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/GDataXMLNode.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/admin/Desktop/Course COP 3990/NautilusMarketXML/GDataXMLNode.m323532073#323532073#0(0"0(0#0#69"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/GDataXMLNode.m8615296512#2329"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-generated-files.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-own-target-headers.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-project-headers.hmap" "-F/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources/armv7" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources" -include /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-exfqsohyqctlmkbtlvgjxgmpokpd/NautilusMarketXML_Prefix.pch -c "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/GDataXMLNode.m" -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/GDataXMLNode.o"0#
+
+CCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/Location.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/Location.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323532072.833138
+e323532072.899578
+r1
+xCompileC
+xbuild/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/Location.o
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/Location.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/Location.m323532072#323532072#0(0"0(0#0#73"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/Location.m8618377120#2329"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-generated-files.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-own-target-headers.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-project-headers.hmap" "-F/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources/armv7" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources" -include /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-exfqsohyqctlmkbtlvgjxgmpokpd/NautilusMarketXML_Prefix.pch -c "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/Location.m" -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/Location.o"0#
+
+CCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/MealPeriod.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/MealPeriod.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323532072.984337
+e323532073.062648
+r1
+xCompileC
+xbuild/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/MealPeriod.o
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/MealPeriod.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/MealPeriod.m323532072#323532073#0(0"0(0#0#75"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/MealPeriod.m8619083232#2333"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-generated-files.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-own-target-headers.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-project-headers.hmap" "-F/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources/armv7" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources" -include /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-exfqsohyqctlmkbtlvgjxgmpokpd/NautilusMarketXML_Prefix.pch -c "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/MealPeriod.m" -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/MealPeriod.o"0#
+
+CCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/MenuItem.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/MenuItem.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323532073.062860
+e323532073.155012
+r1
+xCompileC
+xbuild/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/MenuItem.o
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/MenuItem.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/MenuItem.m323532073#323532073#0(0"0(0#0#73"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/MenuItem.m8614955232#2329"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-generated-files.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-own-target-headers.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-project-headers.hmap" "-F/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources/armv7" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources" -include /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-exfqsohyqctlmkbtlvgjxgmpokpd/NautilusMarketXML_Prefix.pch -c "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/MenuItem.m" -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/MenuItem.o"0#
+
+CCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/NautilusMarketXMLAppDelegate.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/NautilusMarketXMLAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323532072.427342
+e323532072.516649
+r1
+xCompileC
+xbuild/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/NautilusMarketXMLAppDelegate.o
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/NautilusMarketXMLAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/NautilusMarketXMLAppDelegate.m323532072#323532072#0(0"0(0#0#93"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/NautilusMarketXMLAppDelegate.m8621063520#2369"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-generated-files.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-own-target-headers.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-project-headers.hmap" "-F/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources/armv7" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources" -include /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-exfqsohyqctlmkbtlvgjxgmpokpd/NautilusMarketXML_Prefix.pch -c "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/NautilusMarketXMLAppDelegate.m" -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/NautilusMarketXMLAppDelegate.o"0#
+
+CCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/NautilusMarketXMLViewController.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/NautilusMarketXMLViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323532072.516769
+e323532072.767060
+r1
+xCompileC
+xbuild/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/NautilusMarketXMLViewController.o
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/NautilusMarketXMLViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/NautilusMarketXMLViewController.m: In function '-[NautilusMarketXMLViewController requestFailed:]':
+o/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/NautilusMarketXMLViewController.m:54: warning: unused variable 'error'
+lSLF07#2@104"Compile /Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/NautilusMarketXMLViewController.m323532072#323532072#0(297"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/NautilusMarketXMLViewController.m: In function '-[NautilusMarketXMLViewController requestFailed:]':/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/NautilusMarketXMLViewController.m:54: warning: unused variable 'error'1(22@23"Unused variable 'error'323532072#163#134#0(6@96"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/NautilusMarketXMLViewController.m323531321#54#0#54#0#19"unused variable '*'0(0#0#96"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/NautilusMarketXMLViewController.m8622410304#2375"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-generated-files.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-own-target-headers.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-project-headers.hmap" "-F/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources/armv7" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources" -include /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-exfqsohyqctlmkbtlvgjxgmpokpd/NautilusMarketXML_Prefix.pch -c "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/NautilusMarketXMLViewController.m" -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/NautilusMarketXMLViewController.o"0#
+
+CCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/Reachability.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Reachability/Reachability.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323532074.688707
+e323532074.841228
+r1
+xCompileC
+xbuild/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/Reachability.o
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Reachability/Reachability.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Reachability/Reachability.m323532074#323532074#0(0"0(0#0#82"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Reachability/Reachability.m8620710240#2342"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-generated-files.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-own-target-headers.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-project-headers.hmap" "-F/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources/armv7" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources" -include /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-exfqsohyqctlmkbtlvgjxgmpokpd/NautilusMarketXML_Prefix.pch -c "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Reachability/Reachability.m" -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/Reachability.o"0#
+
+CCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/Station.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/Station.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323532072.899705
+e323532072.984216
+r1
+xCompileC
+xbuild/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/Station.o
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/Station.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/Station.m323532072#323532072#0(0"0(0#0#72"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/Station.m8613155872#2327"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-generated-files.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-own-target-headers.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-project-headers.hmap" "-F/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources/armv7" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources" -include /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-exfqsohyqctlmkbtlvgjxgmpokpd/NautilusMarketXML_Prefix.pch -c "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/Station.m" -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/Station.o"0#
+
+CCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/XMLData.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/XMLData.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323532072.767316
+e323532072.833015
+r1
+xCompileC
+xbuild/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/XMLData.o
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/XMLData.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/XMLData.m323532072#323532072#0(0"0(0#0#72"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/XMLData.m8613998912#2327"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-generated-files.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-own-target-headers.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-project-headers.hmap" "-F/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources/armv7" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources" -include /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-exfqsohyqctlmkbtlvgjxgmpokpd/NautilusMarketXML_Prefix.pch -c "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/Classes/XMLData.m" -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/XMLData.o"0#
+
+CCompileC build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/main.o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323532072.347435
+e323532072.427225
+r1
+xCompileC
+xbuild/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/main.o
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/admin/Desktop/Course COP 3990/NautilusMarketXML/main.m323532072#323532072#0(0"0(0#0#61"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/main.m8614493600#2313"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-generated-files.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-own-target-headers.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-project-headers.hmap" "-F/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources/armv7" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources" -include /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-exfqsohyqctlmkbtlvgjxgmpokpd/NautilusMarketXML_Prefix.pch -c "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/main.m" -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/main.o"0#
+
+CCompileXIB "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/MainWindow.xib"
+s323532068.093680
+e323532068.708867
+r1
+xCompileXIB
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib323532068#323532068#0(0"0(0#0#69"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/MainWindow.xib31525674140565612#606"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app/MainWindow.nib" "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/MainWindow.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/NautilusMarketXMLViewController.xib"
+s323532068.108856
+e323532068.709041
+r1
+xCompileXIB
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/NautilusMarketXMLViewController.xib
+lSLF07#2@46"CompileXIB NautilusMarketXMLViewController.xib323532068#323532068#0(0"0(0#0#90"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/NautilusMarketXMLViewController.xib8620563456#648"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app/NautilusMarketXMLViewController.nib" "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/NautilusMarketXMLViewController.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCpResource build/Debug-iphoneos/NautilusMarketXML.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s323532068.065439
+e323532068.093372
+r1
+xCpResource
+xbuild/Debug-iphoneos/NautilusMarketXML.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist323532068#323532068#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8620470432#540"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app"0#
+
+CCreateUniversalBinary "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app/NautilusMarketXML" normal "armv6 armv7"
+s323532075.714007
+e323532075.778744
+r1
+xCreateUniversalBinary
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app/NautilusMarketXML
+xnormal
+xarmv6 armv7
+lSLF07#2@103"CreateUniversalBinary build/Debug-iphoneos/NautilusMarketXML.app/NautilusMarketXML normal "armv6 armv7"323532075#323532075#0(0"0(0#0#66"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/armv6 armv78613336640#670"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/NautilusMarketXML" "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/NautilusMarketXML" -output "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app/NautilusMarketXML"0#
+
+CGenerateDSYMFile "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app.dSYM" "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app/NautilusMarketXML"
+s323532075.778857
+e323532075.897403
+r1
+xGenerateDSYMFile
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app.dSYM
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app/NautilusMarketXML
+lSLF07#2@125"GenerateDSYMFile build/Debug-iphoneos/NautilusMarketXML.app.dSYM build/Debug-iphoneos/NautilusMarketXML.app/NautilusMarketXML323532075#323532075#0(0"0(0#0#115"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app/NautilusMarketXML8602611392#446"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app/NautilusMarketXML" -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app.dSYM"0#
+
+CLd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/NautilusMarketXML" normal armv6
+s323532073.072615
+e323532073.753863
+r1
+xLd
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/NautilusMarketXML
+xnormal
+xarmv6
+lSLF07#2@167"Link /Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/NautilusMarketXML323532073#323532073#0(0"0(0#0#0"8611859936#1108"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" "-F/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" -filelist "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/NautilusMarketXML.LinkFileList" -dead_strip -lxml2 -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CFNetwork -framework SystemConfiguration -framework MobileCoreServices -lz.1.2.3 -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv6/NautilusMarketXML"0#
+
+CLd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/NautilusMarketXML" normal armv7
+s323532075.328804
+e323532075.713877
+r1
+xLd
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/NautilusMarketXML
+xnormal
+xarmv7
+lSLF07#2@167"Link /Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/NautilusMarketXML323532075#323532075#0(0"0(0#0#0"8612207104#1108"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" "-F/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" -filelist "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/NautilusMarketXML.LinkFileList" -dead_strip -lxml2 -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CFNetwork -framework SystemConfiguration -framework MobileCoreServices -lz.1.2.3 -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/Objects-normal/armv7/NautilusMarketXML"0#
+
+CProcessInfoPlistFile "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app/Info.plist" NautilusMarketXML-Info.plist
+s323532068.067813
+e323532068.093582
+r1
+xProcessInfoPlistFile
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app/Info.plist
+xNautilusMarketXML-Info.plist
+lSLF07#2@36"Process NautilusMarketXML-Info.plist323532068#323532068#0(0"0(0#0#83"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/NautilusMarketXML-Info.plist8615232384#674"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility NautilusMarketXML-Info.plist -genpkginfo "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app/ResourceRules.plist" -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app/Info.plist"0#
+
+CProcessPCH /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-axaqjdhqfbqlsvdkctrpoptponyd/NautilusMarketXML_Prefix.pch.gch NautilusMarketXML_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323532068.709169
+e323532069.963586
+r1
+xProcessPCH
+x/var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-axaqjdhqfbqlsvdkctrpoptponyd/NautilusMarketXML_Prefix.pch.gch
+xNautilusMarketXML_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile NautilusMarketXML_Prefix.pch323532068#323532069#0(0"0(0#0#83"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/NautilusMarketXML_Prefix.pch8613072416#2183"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-generated-files.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-own-target-headers.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-project-headers.hmap" "-F/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources/armv6" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources" -c "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/NautilusMarketXML_Prefix.pch" -o /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-axaqjdhqfbqlsvdkctrpoptponyd/NautilusMarketXML_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-exfqsohyqctlmkbtlvgjxgmpokpd/NautilusMarketXML_Prefix.pch.gch NautilusMarketXML_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323532068.710325
+e323532069.916042
+r1
+xProcessPCH
+x/var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-exfqsohyqctlmkbtlvgjxgmpokpd/NautilusMarketXML_Prefix.pch.gch
+xNautilusMarketXML_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile NautilusMarketXML_Prefix.pch323532068#323532069#0(0"0(0#0#83"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/NautilusMarketXML_Prefix.pch8613563232#2183"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-generated-files.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-own-target-headers.hmap" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML-project-headers.hmap" "-F/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources/armv7" "-I/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/DerivedSources" -c "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/NautilusMarketXML_Prefix.pch" -o /var/folders/KW/KWaeqsrVGUmnMVsBOX8TEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NautilusMarketXML_Prefix-exfqsohyqctlmkbtlvgjxgmpokpd/NautilusMarketXML_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/admin/Library/MobileDevice/Provisioning Profiles/F7027F93-21DA-4960-B668-CEDB7C0F69D5.mobileprovision" "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app/embedded.mobileprovision"
+s323532075.897518
+e323532075.902601
+r1
+xProcessProductPackaging
+x/Users/admin/Library/MobileDevice/Provisioning Profiles/F7027F93-21DA-4960-B668-CEDB7C0F69D5.mobileprovision
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app/embedded.mobileprovision
+lSLF07#2@202"ProcessProductPackaging "/Users/admin/Library/MobileDevice/Provisioning Profiles/F7027F93-21DA-4960-B668-CEDB7C0F69D5.mobileprovision" build/Debug-iphoneos/NautilusMarketXML.app/embedded.mobileprovision323532075#323532075#0(0"0(0#0#122"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app/embedded.mobileprovision8619003712#469"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/admin/Library/MobileDevice/Provisioning Profiles/F7027F93-21DA-4960-B668-CEDB7C0F69D5.mobileprovision" -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML.xcent"
+s323532075.906262
+e323532075.920942
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML.xcent
+lSLF07#2@205"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML.xcent323532075#323532075#0(0"0(0#0#147"/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML.xcent8616031456#498"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/NautilusMarketXML.build/Debug-iphoneos/NautilusMarketXML.build/NautilusMarketXML.xcent"0#
+
+CTouch "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app"
+s323532075.902696
+e323532075.906168
+r1
+xTouch
+x/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app
+lSLF07#2@103"Touch /Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app323532075#323532075#0(0"0(0#0#0"8618149472#310"    cd "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/admin/Desktop/Course COP 3990/NautilusMarketXML/build/Debug-iphoneos/NautilusMarketXML.app"0#
+

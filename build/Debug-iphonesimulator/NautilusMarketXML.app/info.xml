@@ -1,0 +1,100 @@
+<Response>
+<Version>5/27/11</Version>
+<Location name="Nautilus Market" Latitude="30.548991" Longitude="-87.219072">
+<Open day="2" begin="11.15" end="13.15"/><Open day="3" begin="11.15" end="13.15"/><Open day="4" begin="11.25" end="13.12"/><Open day="5" begin="11.15" end="13"/><Open day="6" begin="11.15" end="13.15"/>
+    
+<ContactPhone>(850)474-3198</ContactPhone>
+<ContactEmail>foodserv@uwf.edu</ContactEmail>
+<LocationAddress>Pace Library </LocationAddress>
+<Description> 
+The Nautilus Market features an abundant variety of nutritionally balanced hot and cold entrees, grilled favorites, italian and mexican cuisine, sandwiches, sides, desserts, self-serve ice cream and beverages in an All-You-Care-To-Eat format. The Nautilus Market is open for breakfast, lunch and dinner and is the campus All-You-Care-To-Eat and meal plan dining facility. Entry to the facility is via one meal plan swipe or payment of the door price of $5.50 for Breakfast or $6.75 for Lunch and $7.25 for Dinner. Located in the Commons, Building 22. (prices good through May 8, 2011)
+ 
+Summer 2011 door price: Lunch - $7.50
+ 
+Fall 2011/Spring 2012 door prices: Breakfast - $6.25; Lunch - $7.50; Dinner - $8.00
+</Description>
+</Location>
+<Location name="Sub Generation" Latitude="30.543953" Longitude="-87.216001">
+<ContactPhone>(850)474-3198</ContactPhone>
+    <ContactEmail>foodserv@uwf.edu</ContactEmail>
+    <LocationAddress>Pace Library </LocationAddress>
+    <Open day="2" begin="11.15" end="13.15"/><Open day="3" begin="11.15" end="13.15"/><Open day="4" begin="11.25" end="13.12"/><Open day="5" begin="11.15" end="13"/><Open day="6" begin="11.15" end="13.15"/>
+
+    
+<Description> 
+Our subs start with fresh baked bread, packed with the finest sliced meats, cheeses, signature spreads, spices and wholesome toppings. Located in the College of Professional Studies, Building 86.
+</Description>
+</Location>             
+<Location name="Outtakes" Latitude="30.546800" Longitude="-87.216990">
+<ContactPhone>(850)474-3198</ContactPhone>
+    <ContactEmail>foodserv@uwf.edu</ContactEmail>
+    <LocationAddress>Pace Library </LocationAddress>
+    <Open day="2" begin="11.15" end="13.15"/><Open day="3" begin="11.15" end="13.15"/><Open day="4" begin="11.25" end="13.12"/><Open day="5" begin="11.15" end="13"/><Open day="6" begin="11.15" end="13.15"/>
+
+<Description> 
+Outtakes offers grab and go salads, sandwiches, wraps and parfaits; a variety of bottled beverages, sweet and salty snacks, pastries and Seattle’s Best coffee, cappuccinos and blended cremices. Located in the Science and Engineering Building, Building 4.
+</Description>
+</Location>
+    <Location name="Terra Juice" Latitude="30.544831" Longitude="-87.221532">
+  <ContactPhone>(850)474-3198</ContactPhone>
+        <ContactEmail>foodserv@uwf.edu</ContactEmail>
+        <LocationAddress>Pace Library </LocationAddress>
+ <Open day="2" begin="11.15" end="13.15"/><Open day="3" begin="11.15" end="13.15"/><Open day="4" begin="11.25" end="13.12"/><Open day="5" begin="11.15" end="13"/><Open day="6" begin="11.15" end="13.15"/>
+
+<Description> 
+A smoothie and healthy juice drink concept that provides a choice of great beverages, power bars, snacks, wraps, salads, organic snacks and fruits.
+</Description>
+</Location>
+<Location name="Chick-n-Grill" Latitude="30.549426" Longitude="-87.218718">
+  <ContactPhone>(850)474-3198</ContactPhone>
+    <ContactEmail>foodserv@uwf.edu</ContactEmail>
+    <LocationAddress>Pace Library </LocationAddress>
+ <Open day="2" begin="11.15" end="13.15"/><Open day="3" begin="11.15" end="13.15"/><Open day="4" begin="11.25" end="13.12"/><Open day="5" begin="11.15" end="13"/><Open day="6" begin="11.15" end="13.15"/>
+<Description> 
+The Chick-N-Grill is the tasty way to stay healthy! Menu options include marinated grilled chicken breasts, famous bourbon chicken, churrasco steak, pita sandwiches, stuffed potatoes and homemade sauces. Healthy foods with no Trans-Fat or MSG. Located in the Commons, Building 22.
+</Description>
+</Location>
+<Location name="Quizno" Latitude="30.549422" Longitude="-87.218650">
+<ContactPhone>(850)474-3198</ContactPhone>
+    <ContactEmail>foodserv@uwf.edu</ContactEmail>
+    <LocationAddress>Pace Library </LocationAddress>
+ <Open day="2" begin="11.15" end="13.15"/><Open day="3" begin="11.15" end="13.15"/><Open day="4" begin="11.25" end="13.12"/><Open day="5" begin="11.15" end="13"/><Open day="6" begin="11.15" end="13.15"/>
+<Description>
+Our subs start with fresh baked bread, packed with the finest sliced meat, cheeses, signature spreads, spices and wholesome toppings.
+</Description>
+</Location>
+<Location name="Argo Galley" Latitude="30.549358" Longitude="-87.218655">
+<ContactPhone>(850)474-3198</ContactPhone>
+    <ContactEmail>foodserv@uwf.edu</ContactEmail>
+    <LocationAddress>Pace Library </LocationAddress>
+ <Open day="2" begin="11.15" end="13.15"/><Open day="3" begin="11.15" end="13.15"/><Open day="4" begin="11.25" end="13.12"/><Open day="5" begin="11.15" end="13"/><Open day="6" begin="11.15" end="13.15"/>
+<Description>
+The Argo Galley is a casual restaurant offering continental breakfast, lunch and dinner. Outtakes and Ice Cream offerings are also available in the Galley. The Galley is "the" gathering place with great food and fun events. Located in the Commons, Building 22.
+</Description>
+</Location>
+
+<Location name="Starbucks" Latitude="30.55025" Longitude="-87.217401">
+<ContactPhone>(850)474-3198</ContactPhone>
+    <ContactEmail>foodserv@uwf.edu</ContactEmail>
+    <LocationAddress>Pace Library </LocationAddress>
+
+<Description>
+Our full service coffee house serving coffee beverages, espresso flavored hot and cold drinks, homemade pastries, and sweets.
+</Description>
+ <Open day="2" begin="11.15" end="13.15"/><Open day="3" begin="11.15" end="13.15"/><Open day="4" begin="11.25" end="13.12"/><Open day="5" begin="11.15" end="13"/><Open day="6" begin="11.15" end="13.15"/>
+</Location>
+
+<GeneralInfo>
+<ContactPhone>(850)474-3198</ContactPhone>
+<ContactEmail>foodserv@uwf.edu</ContactEmail>
+    
+<Description>Dining Services on the UWF campus are available in a variety of locations. In the University Commons, choose from the Nautilus Market all-you-care-to-eat/meal plan facility; Argo Galley, including Outtakes grab-n-go items, and ice cream; Quiznos'Sub or Chick-N-Grill. The Health, Leisure and Sports Facility houses Terra Juice, featuring smoothies plus salads, sandwiches and more. Sub Generation is located in the College of Professional Studies in Building 86. "We Proudly Brew" Starbucks is located in the lobby of the John C. Pace Library and offers a wide variety of beverages and sweet treats. Outtakes is located on the first floor of the School of Science and Engineering building (bldg. 4) and serves Seattle's Best coffee beverages..
+
+Meal Plans for Students living in University Housing
+All First-Time-In-College students living in University housing are required to participate in the mandatory meal plan program at a ten (10) Meal Plan level or higher per semester their first two (2) consecutive semesters on campus (summer residence not included). The default for the first semester is the 10 Meal Plan. However, the plan may be upgraded to the 15 or 19 Meal Plan. The second semester, the plan will default to the plan you had at the end of the first semester. The cost of the meal plan is not included in the rental rate for University housing. All First-Time-In-College students living in university housing will have meal plans available for use in time for Housing check-in.
+Meal Plans and Block Plans are available to all students. Voluntary meal plans must be paid before the meal plan will be issued unless otherwise approved by Student Accounts. Fall Meal Plans will be available for purchase July 1.
+Changes may be made to meal plans through the first two weeks after the start of classes or after the purchase of a meal plan, whichever is later. Prices are for one semester only. Meal Plans and unused Argo Bucks expire at the end of each semester. Payment for a meal plan is due at the same time as the student's Unviersity housing payment. There is no contract for meal plans. Meal plan purchases may be made in the UWF Cashier's Office, mailed to the Cashier's Office, or paid online via the student's ARGUS account.
+</Description>
+</GeneralInfo>
+
+</Response>

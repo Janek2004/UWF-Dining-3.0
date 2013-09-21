@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* NautilusMarketXMLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* NautilusMarketXMLAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* NautilusMarketXMLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* NautilusMarketXMLViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* NautilusMarketXMLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* NautilusMarketXMLViewController.m */; };
+		8248863917EE40C90022477A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8248863817EE40C90022477A /* Images.xcassets */; };
+		82BA2B7517E69C5B0029E200 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82BA2B7417E69C5B0029E200 /* Default-568h@2x.png */; };
+		82BA2B7717E69C980029E200 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 82BA2B7617E69C980029E200 /* libz.1.2.5.dylib */; };
+		840230FA13B54DD5009713EB /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 840230F913B54DD5009713EB /* logo.png */; };
+		840230FC13B54E14009713EB /* logo2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 840230FB13B54E14009713EB /* logo2x.png */; };
+		840A54E81389BC9000A09D7B /* menu2.xml in Resources */ = {isa = PBXBuildFile; fileRef = 840A54E71389BC9000A09D7B /* menu2.xml */; };
+		840A55551390C03F00A09D7B /* info.xml in Resources */ = {isa = PBXBuildFile; fileRef = 840A55541390C03F00A09D7B /* info.xml */; };
+		8434295F13AC4E8000577A7B /* myLocationBigger.png in Resources */ = {isa = PBXBuildFile; fileRef = 8434295E13AC4E8000577A7B /* myLocationBigger.png */; };
+		8434296113AC509900577A7B /* meal.png in Resources */ = {isa = PBXBuildFile; fileRef = 8434296013AC509900577A7B /* meal.png */; };
+		8434296313AC55A500577A7B /* locateme2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8434296213AC55A500577A7B /* locateme2.png */; };
+		8434296513AC578E00577A7B /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 8434296413AC578E00577A7B /* home.png */; };
+		8434296713AC588500577A7B /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 8434296613AC588500577A7B /* clock.png */; };
+		8434296B13AC5D4E00577A7B /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 8434296A13AC5D4E00577A7B /* email.png */; };
+		8434296F13AC5ECF00577A7B /* phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 8434296E13AC5ECF00577A7B /* phone.png */; };
+		8445900D13AA56C50033B91B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8445900C13AA56C50033B91B /* MessageUI.framework */; };
+		848D24F91347BFCA00B14344 /* XMLData.m in Sources */ = {isa = PBXBuildFile; fileRef = 848D24F81347BFCA00B14344 /* XMLData.m */; };
+		848D250C1347C11C00B14344 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 848D250B1347C11C00B14344 /* Location.m */; };
+		848D25111347C25400B14344 /* Station.m in Sources */ = {isa = PBXBuildFile; fileRef = 848D25101347C25400B14344 /* Station.m */; };
+		848D25161347C46400B14344 /* MealPeriod.m in Sources */ = {isa = PBXBuildFile; fileRef = 848D25151347C46400B14344 /* MealPeriod.m */; };
+		848D251B1347C4F900B14344 /* MenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 848D251A1347C4F900B14344 /* MenuItem.m */; };
+		848EEC2B134D733C00F973E6 /* Opens.m in Sources */ = {isa = PBXBuildFile; fileRef = 848EEC2A134D733C00F973E6 /* Opens.m */; };
+		84938C6513DA6CB4002BAAF3 /* facebookIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84938C6313DA6CB4002BAAF3 /* facebookIcon.png */; };
+		84938C6613DA6CB4002BAAF3 /* webIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84938C6413DA6CB4002BAAF3 /* webIcon.png */; };
+		849D41C3137CE9EE007D8338 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849D41C2137CE9EE007D8338 /* MapViewController.m */; };
+		849D41C5137CEAC1007D8338 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849D41C4137CEAC1007D8338 /* CoreLocation.framework */; };
+		849D41C7137CEAC8007D8338 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849D41C6137CEAC8007D8338 /* MapKit.framework */; };
+		849D41C9137CEAE9007D8338 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849D41C8137CEAE9007D8338 /* MapViewController.xib */; };
+		849D41CB137DFA12007D8338 /* restaurant-icon.gif in Resources */ = {isa = PBXBuildFile; fileRef = 849D41CA137DFA12007D8338 /* restaurant-icon.gif */; };
+		84AEF77D1348ADE900B551E6 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AEF77C1348ADE900B551E6 /* CFNetwork.framework */; };
+		84AEF7911348AE0D00B551E6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AEF7901348AE0D00B551E6 /* SystemConfiguration.framework */; };
+		84AEF7931348AE1F00B551E6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AEF7921348AE1F00B551E6 /* MobileCoreServices.framework */; };
+		84B8081F1380CB5000139423 /* infoBack2.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B8081E1380CB5000139423 /* infoBack2.png */; };
+		84DEA34E134820EC00EBD0C4 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DEA34D134820EC00EBD0C4 /* GDataXMLNode.m */; };
+		84FDBCA4135A29A000D7119D /* StationsTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FDBCA2135A29A000D7119D /* StationsTable.m */; };
+		84FDBCA5135A29A000D7119D /* StationsTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84FDBCA3135A29A000D7119D /* StationsTable.xib */; };
+		ED1A520813DFA61200AE7537 /* UWFDiningV2114pixScreenshotUpload.png in Resources */ = {isa = PBXBuildFile; fileRef = ED1A520713DFA61200AE7537 /* UWFDiningV2114pixScreenshotUpload.png */; };
+		ED1A520B13DFA62500AE7537 /* UWFDiningV257pixScreenshotUpload.png in Resources */ = {isa = PBXBuildFile; fileRef = ED1A520A13DFA62500AE7537 /* UWFDiningV257pixScreenshotUpload.png */; };
+		ED35AA7613C5B0B4007A03EE /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED35AA7513C5B0B4007A03EE /* iAd.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* NautilusMarketXMLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NautilusMarketXMLAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* NautilusMarketXMLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NautilusMarketXMLAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* NautilusMarketXML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NautilusMarketXML.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* NautilusMarketXMLViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = NautilusMarketXMLViewController.xib; path = ../NautilusMarketXMLViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* NautilusMarketXMLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NautilusMarketXMLViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* NautilusMarketXMLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NautilusMarketXMLViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* NautilusMarketXML_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NautilusMarketXML_Prefix.pch; sourceTree = "<group>"; };
+		8248863817EE40C90022477A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = NautilusMarketXML/Images.xcassets; sourceTree = "<group>"; };
+		82BA2B7417E69C5B0029E200 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		82BA2B7617E69C980029E200 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		840230F913B54DD5009713EB /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		840230FB13B54E14009713EB /* logo2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo2x.png; sourceTree = "<group>"; };
+		840A54E71389BC9000A09D7B /* menu2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = menu2.xml; sourceTree = "<group>"; };
+		840A55541390C03F00A09D7B /* info.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = info.xml; sourceTree = "<group>"; };
+		8434295E13AC4E8000577A7B /* myLocationBigger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myLocationBigger.png; sourceTree = "<group>"; };
+		8434296013AC509900577A7B /* meal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meal.png; sourceTree = "<group>"; };
+		8434296213AC55A500577A7B /* locateme2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = locateme2.png; sourceTree = "<group>"; };
+		8434296413AC578E00577A7B /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		8434296613AC588500577A7B /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		8434296A13AC5D4E00577A7B /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email.png; sourceTree = "<group>"; };
+		8434296E13AC5ECF00577A7B /* phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone.png; sourceTree = "<group>"; };
+		8445900C13AA56C50033B91B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		848D24F71347BFCA00B14344 /* XMLData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLData.h; sourceTree = "<group>"; };
+		848D24F81347BFCA00B14344 /* XMLData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLData.m; sourceTree = "<group>"; };
+		848D250A1347C11C00B14344 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		848D250B1347C11C00B14344 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		848D250F1347C25400B14344 /* Station.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Station.h; sourceTree = "<group>"; };
+		848D25101347C25400B14344 /* Station.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Station.m; sourceTree = "<group>"; };
+		848D25141347C46400B14344 /* MealPeriod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealPeriod.h; sourceTree = "<group>"; };
+		848D25151347C46400B14344 /* MealPeriod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealPeriod.m; sourceTree = "<group>"; };
+		848D25191347C4F900B14344 /* MenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuItem.h; sourceTree = "<group>"; };
+		848D251A1347C4F900B14344 /* MenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuItem.m; sourceTree = "<group>"; };
+		848EEC29134D733C00F973E6 /* Opens.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Opens.h; sourceTree = "<group>"; };
+		848EEC2A134D733C00F973E6 /* Opens.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Opens.m; sourceTree = "<group>"; };
+		84938C6313DA6CB4002BAAF3 /* facebookIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebookIcon.png; sourceTree = "<group>"; };
+		84938C6413DA6CB4002BAAF3 /* webIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = webIcon.png; sourceTree = "<group>"; };
+		849D41C1137CE9EE007D8338 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		849D41C2137CE9EE007D8338 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		849D41C4137CEAC1007D8338 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		849D41C6137CEAC8007D8338 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		849D41C8137CEAE9007D8338 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		849D41CA137DFA12007D8338 /* restaurant-icon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "restaurant-icon.gif"; sourceTree = "<group>"; };
+		84AEF77C1348ADE900B551E6 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		84AEF7901348AE0D00B551E6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		84AEF7921348AE1F00B551E6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		84AEF7981348AE4F00B551E6 /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
+		84B8081E1380CB5000139423 /* infoBack2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = infoBack2.png; sourceTree = "<group>"; };
+		84DEA34C134820EC00EBD0C4 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		84DEA34D134820EC00EBD0C4 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		84FDBCA1135A29A000D7119D /* StationsTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationsTable.h; sourceTree = "<group>"; };
+		84FDBCA2135A29A000D7119D /* StationsTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationsTable.m; sourceTree = "<group>"; };
+		84FDBCA3135A29A000D7119D /* StationsTable.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StationsTable.xib; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* NautilusMarketXML-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "NautilusMarketXML-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		ED1A520713DFA61200AE7537 /* UWFDiningV2114pixScreenshotUpload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UWFDiningV2114pixScreenshotUpload.png; sourceTree = "<group>"; };
+		ED1A520A13DFA62500AE7537 /* UWFDiningV257pixScreenshotUpload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UWFDiningV257pixScreenshotUpload.png; sourceTree = "<group>"; };
+		ED35AA7513C5B0B4007A03EE /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82BA2B7717E69C980029E200 /* libz.1.2.5.dylib in Frameworks */,
+				8445900D13AA56C50033B91B /* MessageUI.framework in Frameworks */,
+				849D41C7137CEAC8007D8338 /* MapKit.framework in Frameworks */,
+				849D41C5137CEAC1007D8338 /* CoreLocation.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				84AEF77D1348ADE900B551E6 /* CFNetwork.framework in Frameworks */,
+				84AEF7911348AE0D00B551E6 /* SystemConfiguration.framework in Frameworks */,
+				84AEF7931348AE1F00B551E6 /* MobileCoreServices.framework in Frameworks */,
+				ED35AA7613C5B0B4007A03EE /* iAd.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				848EEC29134D733C00F973E6 /* Opens.h */,
+				848EEC2A134D733C00F973E6 /* Opens.m */,
+				848D250F1347C25400B14344 /* Station.h */,
+				848D25101347C25400B14344 /* Station.m */,
+				848D25141347C46400B14344 /* MealPeriod.h */,
+				848D25151347C46400B14344 /* MealPeriod.m */,
+				848D25191347C4F900B14344 /* MenuItem.h */,
+				848D251A1347C4F900B14344 /* MenuItem.m */,
+				848D250A1347C11C00B14344 /* Location.h */,
+				848D250B1347C11C00B14344 /* Location.m */,
+				1D3623240D0F684500981E51 /* NautilusMarketXMLAppDelegate.h */,
+				1D3623250D0F684500981E51 /* NautilusMarketXMLAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* NautilusMarketXMLViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* NautilusMarketXMLViewController.m */,
+				2899E5210DE3E06400AC0155 /* NautilusMarketXMLViewController.xib */,
+				848D24F71347BFCA00B14344 /* XMLData.h */,
+				848D24F81347BFCA00B14344 /* XMLData.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* NautilusMarketXML.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				82BA2B7417E69C5B0029E200 /* Default-568h@2x.png */,
+				ED1A520A13DFA62500AE7537 /* UWFDiningV257pixScreenshotUpload.png */,
+				ED1A520713DFA61200AE7537 /* UWFDiningV2114pixScreenshotUpload.png */,
+				840230FB13B54E14009713EB /* logo2x.png */,
+				840230F913B54DD5009713EB /* logo.png */,
+				8445900C13AA56C50033B91B /* MessageUI.framework */,
+				849D41C6137CEAC8007D8338 /* MapKit.framework */,
+				849D41C4137CEAC1007D8338 /* CoreLocation.framework */,
+				849D41C0137CE9D2007D8338 /* Map */,
+				84BA6E91135A52E2003CFF21 /* Tables */,
+				84DEA34B134820EC00EBD0C4 /* GDataXML */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* NautilusMarketXML_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8248863817EE40C90022477A /* Images.xcassets */,
+				8434296413AC578E00577A7B /* home.png */,
+				8434296E13AC5ECF00577A7B /* phone.png */,
+				8434296213AC55A500577A7B /* locateme2.png */,
+				84938C6313DA6CB4002BAAF3 /* facebookIcon.png */,
+				84938C6413DA6CB4002BAAF3 /* webIcon.png */,
+				8434296A13AC5D4E00577A7B /* email.png */,
+				8434295E13AC4E8000577A7B /* myLocationBigger.png */,
+				8434296013AC509900577A7B /* meal.png */,
+				840A55541390C03F00A09D7B /* info.xml */,
+				8434296613AC588500577A7B /* clock.png */,
+				840A54E71389BC9000A09D7B /* menu2.xml */,
+				84B8081E1380CB5000139423 /* infoBack2.png */,
+				849D41CA137DFA12007D8338 /* restaurant-icon.gif */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* NautilusMarketXML-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82BA2B7617E69C980029E200 /* libz.1.2.5.dylib */,
+				ED35AA7513C5B0B4007A03EE /* iAd.framework */,
+				84AEF7901348AE0D00B551E6 /* SystemConfiguration.framework */,
+				84AEF77C1348ADE900B551E6 /* CFNetwork.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				84AEF7921348AE1F00B551E6 /* MobileCoreServices.framework */,
+				84AEF7981348AE4F00B551E6 /* libz.1.2.3.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		849D41C0137CE9D2007D8338 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				849D41C8137CEAE9007D8338 /* MapViewController.xib */,
+				849D41C1137CE9EE007D8338 /* MapViewController.h */,
+				849D41C2137CE9EE007D8338 /* MapViewController.m */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		84BA6E91135A52E2003CFF21 /* Tables */ = {
+			isa = PBXGroup;
+			children = (
+				84FDBCA1135A29A000D7119D /* StationsTable.h */,
+				84FDBCA2135A29A000D7119D /* StationsTable.m */,
+				84FDBCA3135A29A000D7119D /* StationsTable.xib */,
+			);
+			name = Tables;
+			sourceTree = "<group>";
+		};
+		84DEA34B134820EC00EBD0C4 /* GDataXML */ = {
+			isa = PBXGroup;
+			children = (
+				84DEA34C134820EC00EBD0C4 /* GDataXMLNode.h */,
+				84DEA34D134820EC00EBD0C4 /* GDataXMLNode.m */,
+			);
+			name = GDataXML;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* NautilusMarketXML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "NautilusMarketXML" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NautilusMarketXML;
+			productName = NautilusMarketXML;
+			productReference = 1D6058910D05DD3D006BFB54 /* NautilusMarketXML.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = 96W6Q3D8BE;
+					};
+				};
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "NautilusMarketXML" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* NautilusMarketXML */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				8248863917EE40C90022477A /* Images.xcassets in Resources */,
+				82BA2B7517E69C5B0029E200 /* Default-568h@2x.png in Resources */,
+				2899E5220DE3E06400AC0155 /* NautilusMarketXMLViewController.xib in Resources */,
+				84FDBCA5135A29A000D7119D /* StationsTable.xib in Resources */,
+				849D41C9137CEAE9007D8338 /* MapViewController.xib in Resources */,
+				849D41CB137DFA12007D8338 /* restaurant-icon.gif in Resources */,
+				84B8081F1380CB5000139423 /* infoBack2.png in Resources */,
+				840A54E81389BC9000A09D7B /* menu2.xml in Resources */,
+				840A55551390C03F00A09D7B /* info.xml in Resources */,
+				8434295F13AC4E8000577A7B /* myLocationBigger.png in Resources */,
+				8434296113AC509900577A7B /* meal.png in Resources */,
+				8434296313AC55A500577A7B /* locateme2.png in Resources */,
+				8434296513AC578E00577A7B /* home.png in Resources */,
+				8434296713AC588500577A7B /* clock.png in Resources */,
+				8434296B13AC5D4E00577A7B /* email.png in Resources */,
+				8434296F13AC5ECF00577A7B /* phone.png in Resources */,
+				840230FA13B54DD5009713EB /* logo.png in Resources */,
+				840230FC13B54E14009713EB /* logo2x.png in Resources */,
+				84938C6513DA6CB4002BAAF3 /* facebookIcon.png in Resources */,
+				84938C6613DA6CB4002BAAF3 /* webIcon.png in Resources */,
+				ED1A520813DFA61200AE7537 /* UWFDiningV2114pixScreenshotUpload.png in Resources */,
+				ED1A520B13DFA62500AE7537 /* UWFDiningV257pixScreenshotUpload.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* NautilusMarketXMLAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* NautilusMarketXMLViewController.m in Sources */,
+				848D24F91347BFCA00B14344 /* XMLData.m in Sources */,
+				848D250C1347C11C00B14344 /* Location.m in Sources */,
+				848D25111347C25400B14344 /* Station.m in Sources */,
+				848D25161347C46400B14344 /* MealPeriod.m in Sources */,
+				848D251B1347C4F900B14344 /* MenuItem.m in Sources */,
+				84DEA34E134820EC00EBD0C4 /* GDataXMLNode.m in Sources */,
+				848EEC2B134D733C00F973E6 /* Opens.m in Sources */,
+				84FDBCA4135A29A000D7119D /* StationsTable.m in Sources */,
+				849D41C3137CE9EE007D8338 /* MapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NautilusMarketXML_Prefix.pch;
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				"HEADER_SEARCH_PATHS[arch=*]" = "/usr/include/libxml2/**";
+				INFOPLIST_FILE = "NautilusMarketXML-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-lxml2";
+				"OTHER_LDFLAGS[arch=*]" = "-lxml2";
+				PRODUCT_NAME = NautilusMarketXML;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer: Laura White (R7F3Z4GZ27)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Laura White (R7F3Z4GZ27)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NautilusMarketXML_Prefix.pch;
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "NautilusMarketXML-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-lxml2";
+				"OTHER_LDFLAGS[arch=*]" = "-lxml2";
+				PRODUCT_NAME = NautilusMarketXML;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=*]" = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv6 armv7";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Laura J. White";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "53138F29-F592-45A8-A05C-3CEA663DC494";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		ED64089013BBDFEC001761AA /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Laura J. White";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "53138F29-F592-45A8-A05C-3CEA663DC494";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		ED64089113BBDFEC001761AA /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Laura White (R7F3Z4GZ27)";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer: Laura White (R7F3Z4GZ27)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Laura White (R7F3Z4GZ27)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NautilusMarketXML_Prefix.pch;
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				"HEADER_SEARCH_PATHS[arch=*]" = "/usr/include/libxml2/**";
+				INFOPLIST_FILE = "NautilusMarketXML-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-lxml2";
+				"OTHER_LDFLAGS[arch=*]" = "-lxml2";
+				PRODUCT_NAME = NautilusMarketXML;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=*]" = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv6 armv7";
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "NautilusMarketXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				ED64089113BBDFEC001761AA /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Distribution;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "NautilusMarketXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				ED64089013BBDFEC001761AA /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Distribution;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
