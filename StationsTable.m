@@ -20,7 +20,7 @@
 #import "Location.h"
 #import "MealPeriod.h"
 #import "Opens.h"
-#import "NautilusMarketXMLViewController.h"
+#import "UpdaterViewController.h"
 #import "XMLData.h"
 
 @implementation StationsTable
@@ -30,7 +30,7 @@
 @synthesize toolbar;
 @synthesize bannerTable;
 
-NautilusMarketXMLViewController * c;
+UpdaterViewController * c;
 
 
 -(void) willResignActive{
@@ -256,20 +256,15 @@ NautilusMarketXMLViewController * c;
 - (IBAction)mealTypeChanged:(id)sender {
  
     //UISegmentedControl * c=(UISegmentedControl *) sender;
-    int selectedSegment= MenuSegmentedControl.selectedSegmentIndex;
-    
-    
-    
-  //  NSLog(@"Selected index inside meal type changed is: %d", selectedSegment);
+    int selectedSegment=(int) MenuSegmentedControl.selectedSegmentIndex;
     
     NSString * title=[MenuSegmentedControl titleForSegmentAtIndex:selectedSegment];
-   // NSLog(@"Title is: %@ ", title);
+
     for(NSString * s in [menu allKeys])
     {
         if([title isEqualToString:s])
         {
             currentKey=s;
-    //        NSLog(@"Current key is %@",s);
         }
     }
     [table reloadData];
@@ -281,7 +276,7 @@ NautilusMarketXMLViewController * c;
     
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        c=[[ NautilusMarketXMLViewController  alloc]initWithNibName:@"NautilusMarketXMLViewController" bundle:nil];
+        c=[[ UpdaterViewController  alloc]initWithNibName:@"NautilusMarketXMLViewController" bundle:nil];
         c.view.alpha=1;
         [c.activityIndicator startAnimating];
         // Custom initialization.
@@ -429,16 +424,15 @@ NautilusMarketXMLViewController * c;
 }
 #pragma mark Table Methods
 
--(int) numberOfSectionsInTableView:(UITableView *)tableView{
-	
-    int k=[[[menu objectForKey:currentKey]allKeys] count]; 
+-(NSInteger) numberOfSectionsInTableView:(UITableView *)tableView{
+    NSInteger k=[[[menu objectForKey:currentKey]allKeys] count];
        // NSLog(@"Sections %d %@ %@", k, [menu objectForKey:currentKey],[[menu objectForKey:currentKey]allKeys]);
 	return k;
 }
 
 
--(int) tableView:(UITableView *)tableView numberOfRowsInSection:(int) section{
-    int k=[[[[menu objectForKey:currentKey]allValues]objectAtIndex:section]count];
+-(NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger) section{
+    NSInteger k=[[[[menu objectForKey:currentKey]allValues]objectAtIndex:section]count];
 
     return k;
 }
@@ -541,14 +535,12 @@ NautilusMarketXMLViewController * c;
 
 -(void)bannerViewDidLoadAd:(ADBannerView *)bannerTable
 {
-    //NSLog(@"Ad loaded");
     [self layoutForCurrentOrientation:YES];
 }
 
 
 -(void)bannerView:(ADBannerView *)bannerTable didFailToReceiveAdWithError:(NSError *)error
 {
-    //NSLog(@"Fail to receive Ad");
     [self layoutForCurrentOrientation:YES];
 }
 
@@ -556,11 +548,6 @@ NautilusMarketXMLViewController * c;
 -(BOOL)bannerViewActionShouldBegin:(ADBannerView *)bannerTable willLeaveApplication:(BOOL)willLeave
 {
     return YES;
-}
-
-
--(void)bannerViewActionDidFinish:(ADBannerView *)bannerTable
-{
 }
 
 

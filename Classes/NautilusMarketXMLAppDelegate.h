@@ -17,16 +17,16 @@
 
 #import <UIKit/UIKit.h>
 
-@class NautilusMarketXMLViewController;
+@class UpdaterViewController;
 @class MapViewController;
 @interface NautilusMarketXMLAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
-    NautilusMarketXMLViewController *viewController;
+    UpdaterViewController *viewController;
     MapViewController *_viewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet NautilusMarketXMLViewController *viewController;
+@property (nonatomic, retain) IBOutlet UpdaterViewController *viewController;
 @property (nonatomic, retain) IBOutlet  MapViewController *_viewController;
 
 @end

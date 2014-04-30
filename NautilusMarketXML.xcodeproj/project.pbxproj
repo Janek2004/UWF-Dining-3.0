@@ -12,12 +12,13 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
-		2899E5220DE3E06400AC0155 /* NautilusMarketXMLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* NautilusMarketXMLViewController.xib */; };
+		2899E5220DE3E06400AC0155 /* UpdaterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* UpdaterViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
-		28D7ACF80DDB3853001CB0EB /* NautilusMarketXMLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* NautilusMarketXMLViewController.m */; };
+		28D7ACF80DDB3853001CB0EB /* UpdaterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* UpdaterViewController.m */; };
 		8248863917EE40C90022477A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8248863817EE40C90022477A /* Images.xcassets */; };
 		82BA2B7517E69C5B0029E200 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82BA2B7417E69C5B0029E200 /* Default-568h@2x.png */; };
 		82BA2B7717E69C980029E200 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 82BA2B7617E69C980029E200 /* libz.1.2.5.dylib */; };
+		82C54D21191191E1001C5A24 /* restaurant.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C54D20191191E1001C5A24 /* restaurant.png */; };
 		840230FA13B54DD5009713EB /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 840230F913B54DD5009713EB /* logo.png */; };
 		840230FC13B54E14009713EB /* logo2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 840230FB13B54E14009713EB /* logo2x.png */; };
 		840A54E81389BC9000A09D7B /* menu2.xml in Resources */ = {isa = PBXBuildFile; fileRef = 840A54E71389BC9000A09D7B /* menu2.xml */; };
@@ -42,11 +43,9 @@
 		849D41C5137CEAC1007D8338 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849D41C4137CEAC1007D8338 /* CoreLocation.framework */; };
 		849D41C7137CEAC8007D8338 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849D41C6137CEAC8007D8338 /* MapKit.framework */; };
 		849D41C9137CEAE9007D8338 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849D41C8137CEAE9007D8338 /* MapViewController.xib */; };
-		849D41CB137DFA12007D8338 /* restaurant-icon.gif in Resources */ = {isa = PBXBuildFile; fileRef = 849D41CA137DFA12007D8338 /* restaurant-icon.gif */; };
 		84AEF77D1348ADE900B551E6 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AEF77C1348ADE900B551E6 /* CFNetwork.framework */; };
 		84AEF7911348AE0D00B551E6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AEF7901348AE0D00B551E6 /* SystemConfiguration.framework */; };
 		84AEF7931348AE1F00B551E6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AEF7921348AE1F00B551E6 /* MobileCoreServices.framework */; };
-		84B8081F1380CB5000139423 /* infoBack2.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B8081E1380CB5000139423 /* infoBack2.png */; };
 		84DEA34E134820EC00EBD0C4 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DEA34D134820EC00EBD0C4 /* GDataXMLNode.m */; };
 		84FDBCA4135A29A000D7119D /* StationsTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FDBCA2135A29A000D7119D /* StationsTable.m */; };
 		84FDBCA5135A29A000D7119D /* StationsTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84FDBCA3135A29A000D7119D /* StationsTable.xib */; };
@@ -62,15 +61,16 @@
 		1D6058910D05DD3D006BFB54 /* NautilusMarketXML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NautilusMarketXML.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2899E5210DE3E06400AC0155 /* NautilusMarketXMLViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = NautilusMarketXMLViewController.xib; path = ../NautilusMarketXMLViewController.xib; sourceTree = "<group>"; };
+		2899E5210DE3E06400AC0155 /* UpdaterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = UpdaterViewController.xib; path = ../UpdaterViewController.xib; sourceTree = "<group>"; };
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
-		28D7ACF60DDB3853001CB0EB /* NautilusMarketXMLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NautilusMarketXMLViewController.h; sourceTree = "<group>"; };
-		28D7ACF70DDB3853001CB0EB /* NautilusMarketXMLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NautilusMarketXMLViewController.m; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* UpdaterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdaterViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* UpdaterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdaterViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* NautilusMarketXML_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NautilusMarketXML_Prefix.pch; sourceTree = "<group>"; };
 		8248863817EE40C90022477A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = NautilusMarketXML/Images.xcassets; sourceTree = "<group>"; };
 		82BA2B7417E69C5B0029E200 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		82BA2B7617E69C980029E200 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		82C54D20191191E1001C5A24 /* restaurant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restaurant.png; sourceTree = "<group>"; };
 		840230F913B54DD5009713EB /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		840230FB13B54E14009713EB /* logo2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo2x.png; sourceTree = "<group>"; };
 		840A54E71389BC9000A09D7B /* menu2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = menu2.xml; sourceTree = "<group>"; };
@@ -102,12 +102,10 @@
 		849D41C4137CEAC1007D8338 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		849D41C6137CEAC8007D8338 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		849D41C8137CEAE9007D8338 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
-		849D41CA137DFA12007D8338 /* restaurant-icon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "restaurant-icon.gif"; sourceTree = "<group>"; };
 		84AEF77C1348ADE900B551E6 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		84AEF7901348AE0D00B551E6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		84AEF7921348AE1F00B551E6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		84AEF7981348AE4F00B551E6 /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
-		84B8081E1380CB5000139423 /* infoBack2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = infoBack2.png; sourceTree = "<group>"; };
 		84DEA34C134820EC00EBD0C4 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
 		84DEA34D134820EC00EBD0C4 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
 		84FDBCA1135A29A000D7119D /* StationsTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationsTable.h; sourceTree = "<group>"; };
@@ -156,9 +154,9 @@
 				848D250B1347C11C00B14344 /* Location.m */,
 				1D3623240D0F684500981E51 /* NautilusMarketXMLAppDelegate.h */,
 				1D3623250D0F684500981E51 /* NautilusMarketXMLAppDelegate.m */,
-				28D7ACF60DDB3853001CB0EB /* NautilusMarketXMLViewController.h */,
-				28D7ACF70DDB3853001CB0EB /* NautilusMarketXMLViewController.m */,
-				2899E5210DE3E06400AC0155 /* NautilusMarketXMLViewController.xib */,
+				28D7ACF60DDB3853001CB0EB /* UpdaterViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* UpdaterViewController.m */,
+				2899E5210DE3E06400AC0155 /* UpdaterViewController.xib */,
 				848D24F71347BFCA00B14344 /* XMLData.h */,
 				848D24F81347BFCA00B14344 /* XMLData.m */,
 			);
@@ -220,8 +218,7 @@
 				840A55541390C03F00A09D7B /* info.xml */,
 				8434296613AC588500577A7B /* clock.png */,
 				840A54E71389BC9000A09D7B /* menu2.xml */,
-				84B8081E1380CB5000139423 /* infoBack2.png */,
-				849D41CA137DFA12007D8338 /* restaurant-icon.gif */,
+				82C54D20191191E1001C5A24 /* restaurant.png */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* NautilusMarketXML-Info.plist */,
 			);
@@ -333,13 +330,12 @@
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				8248863917EE40C90022477A /* Images.xcassets in Resources */,
 				82BA2B7517E69C5B0029E200 /* Default-568h@2x.png in Resources */,
-				2899E5220DE3E06400AC0155 /* NautilusMarketXMLViewController.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* UpdaterViewController.xib in Resources */,
 				84FDBCA5135A29A000D7119D /* StationsTable.xib in Resources */,
 				849D41C9137CEAE9007D8338 /* MapViewController.xib in Resources */,
-				849D41CB137DFA12007D8338 /* restaurant-icon.gif in Resources */,
-				84B8081F1380CB5000139423 /* infoBack2.png in Resources */,
 				840A54E81389BC9000A09D7B /* menu2.xml in Resources */,
 				840A55551390C03F00A09D7B /* info.xml in Resources */,
+				82C54D21191191E1001C5A24 /* restaurant.png in Resources */,
 				8434295F13AC4E8000577A7B /* myLocationBigger.png in Resources */,
 				8434296113AC509900577A7B /* meal.png in Resources */,
 				8434296313AC55A500577A7B /* locateme2.png in Resources */,
@@ -365,7 +361,7 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* NautilusMarketXMLAppDelegate.m in Sources */,
-				28D7ACF80DDB3853001CB0EB /* NautilusMarketXMLViewController.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* UpdaterViewController.m in Sources */,
 				848D24F91347BFCA00B14344 /* XMLData.m in Sources */,
 				848D250C1347C11C00B14344 /* Location.m in Sources */,
 				848D25111347C25400B14344 /* Station.m in Sources */,

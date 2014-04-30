@@ -20,7 +20,7 @@
 #import <iAd/iAd.h>
 @class Station;
 @class Location;
-#import "NautilusMarketXMLViewController.h"
+#import "UpdaterViewController.h"
 
 @interface StationsTable : UIViewController <UITableViewDelegate, UITableViewDataSource, ADBannerViewDelegate, MFMailComposeViewControllerDelegate, DownloadCompleteDelegate>{
 	NSMutableArray * stations;

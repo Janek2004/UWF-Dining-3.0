@@ -76,7 +76,7 @@
 }
 
 
--(int)placesCount{
+-(NSUInteger)placesCount{
     return [places count];
 }
 

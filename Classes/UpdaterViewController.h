@@ -15,11 +15,27 @@
  
  */
 
-#ifdef __OBJC__
-    #import <Foundation/Foundation.h>
-    #import <UIKit/UIKit.h>
-#define CHARTWELLURL @"http://www.dineoncampus.com/api/mb-xml.cfm?sid=223&token=CA9E30DA-F1F9-D4FB-0ACCB74E6CF4562E"
-#define APPZMANINFO_OLD @"http://appzman.com/DineOnCampus/info.xml"
-#define APPZMANINFO @"http://uwfdining.djmobilesoftware.com/info.xml"
+#import <UIKit/UIKit.h>
 
-#endif
+@class XMLData;
+
+@protocol DownloadCompleteDelegate;
+
+@interface UpdaterViewController : UIViewController
+
+@property(nonatomic, strong) XMLData * xmlData;
+@property (nonatomic, assign) id <DownloadCompleteDelegate> delegate;
+@property(nonatomic, retain)  IBOutlet UIActivityIndicatorView *activityIndicator;
+
+/**
+ *  Method that starts parsing process
+ */
+-(IBAction) startParsing;
+
+@end
+
+//used for downloading
+@protocol DownloadCompleteDelegate <NSObject>
+@required
+- (void)finished;
+@end

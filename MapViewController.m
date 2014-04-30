@@ -20,12 +20,43 @@
 #import "StationsTable.h"
 #define iphoneScaleFactorLatitude   9.0    
 #define iphoneScaleFactorLongitude  11.0  
+/**
+ *  Main View Controller displaying all dining venues
+ */
+@implementation MapViewController{
+    MKMapView *mapView;
+    
+    //  DetailViewController *detailViewController;
+    NSMutableArray *mapAnnotations;
+    NSMutableArray* locationsToFilter;
+    NSMutableArray* locationsToDisplay;
+    NSMutableArray*pickerLocations;
+    CLLocationDegrees zoomLevel;
+   
+    IBOutlet UIToolbar *toolbar;
+    IBOutlet ADBannerView *banner;
+    IBOutlet UITextView *phoneTextView;
+    
+    IBOutlet UISegmentedControl * control;
+    CLLocationManager *locationManager;
+    BOOL updated;
+    IBOutlet UIPickerView *_pickerView;
+    IBOutlet UIView *pickerLocationsView;
+    IBOutlet UIView *infoView;
+    UpdaterViewController *c;
+    
+    //Info
+    IBOutlet UILabel *phoneLabel;
+    IBOutlet UILabel *emailLabel;
+    IBOutlet UIButton *phoneButton;
+    IBOutlet UIButton *emailButton;
+    IBOutlet UITextView *description;
+    NSMutableArray * shopsToShow;
+    int tagIndex;
+  
 
-@implementation MapViewController
-NSMutableArray * shopsToShow;
-int tagIndex;
+}
 @synthesize mapView,  locationsToFilter, toolbar, banner;
-MKPointAnnotation *nautilus, *subGeneration, *starbucks, *outTakes, *terraJuice, *commons;
 
 
 -(void) finished{
@@ -37,12 +68,12 @@ MKPointAnnotation *nautilus, *subGeneration, *starbucks, *outTakes, *terraJuice,
 
 
 -(void) updateDescriptions{
-    description.text=c.xmlExtraData.generalInfo;
-    phoneLabel.text=c.xmlExtraData.contactNumber;
-    emailLabel.text=c.xmlExtraData.contactEmail;
-    phoneTextView.text=c.xmlExtraData.contactNumber;
-    NSString * emailString=[NSString stringWithFormat:@"Email %@",c.xmlExtraData.contactEmail];
-    NSString * phoneString=[NSString stringWithFormat:@"Phone %@",c.xmlExtraData.contactNumber];
+    description.text=c.xmlData.generalInfo;
+    phoneLabel.text=c.xmlData.contactNumber;
+    emailLabel.text=c.xmlData.contactEmail;
+    phoneTextView.text=c.xmlData.contactNumber;
+    NSString * emailString=[NSString stringWithFormat:@"Email %@",c.xmlData.contactEmail];
+    NSString * phoneString=[NSString stringWithFormat:@"Phone %@",c.xmlData.contactNumber];
     [emailButton setTitle:emailString forState:UIControlStateNormal];
     [phoneButton setTitle:phoneString forState:UIControlStateNormal];
 }
@@ -96,7 +127,7 @@ MKPointAnnotation *nautilus, *subGeneration, *starbucks, *outTakes, *terraJuice,
 - (IBAction)emailAction:(id)sender {
     MFMailComposeViewController* controller = [[MFMailComposeViewController alloc] init];
     controller.mailComposeDelegate = self;
-    NSArray * a=[[NSArray alloc]initWithObjects:c.xmlExtraData.contactEmail, nil];
+    NSArray * a=[[NSArray alloc]initWithObjects:c.xmlData.contactEmail, nil];
     [controller setToRecipients:a];
     [controller setSubject:@"Dine on Campus - Sent From iPhone App"];
     [controller setMessageBody:@"Hello there." isHTML:NO]; 
@@ -107,7 +138,7 @@ MKPointAnnotation *nautilus, *subGeneration, *starbucks, *outTakes, *terraJuice,
 
 
 - (IBAction)callAction:(id)sender {
-    NSString *callToURLString = [NSString stringWithFormat:@"tel:%@", c.xmlExtraData.contactNumber];
+    NSString *callToURLString = [NSString stringWithFormat:@"tel:%@", c.xmlData.contactNumber];
     if (![[UIApplication sharedApplication] openURL:[NSURL URLWithString:callToURLString]])
 	{
 		// there was an error trying to open the URL. We'll ignore for the time being.
@@ -267,7 +298,7 @@ if( [(UISegmentedControl *) sender selectedSegmentIndex]==2)
     mapAnnotations=[[NSMutableArray alloc]initWithCapacity:0];
     pickerLocations=[[NSMutableArray alloc]initWithCapacity:0];
     locationsToFilter=[[NSMutableArray alloc]initWithCapacity:0];
-    c=[[NautilusMarketXMLViewController alloc]initWithNibName:@"NautilusMarketXMLViewController" bundle:nil];
+    c=[[UpdaterViewController alloc]initWithNibName:@"NautilusMarketXMLViewController" bundle:nil];
     c.delegate=self;
     mapView.showsUserLocation=YES;
     self.mapView.mapType = MKMapTypeStandard; 
@@ -288,8 +319,9 @@ if( [(UISegmentedControl *) sender selectedSegmentIndex]==2)
     
     [self gotoLocation];    // finally goto UWF
     [self.view addSubview: c.view];
-    c.view.frame = self.view.bounds;
-    [c startParsing];
+  //  c.view.frame = self.view.bounds;
+  //  [c startParsing];
+
 }
 
 
@@ -378,7 +410,7 @@ if( [(UISegmentedControl *) sender selectedSegmentIndex]==2)
 
 - (void)mapView:(MKMapView *)mapView annotationView:(MKAnnotationView *)view calloutAccessoryControlTapped:(UIControl *)_control{
  ;
-    Location *locationToPush;
+    Location *locationToPush = NULL;
     NSString * string= [(Location *) view.annotation title];
     for(Location *loc in self.locationsToFilter)
    {
@@ -419,7 +451,7 @@ if( [(UISegmentedControl *) sender selectedSegmentIndex]==2)
             customPinView2.animatesDrop = YES;
             customPinView2.canShowCallout = YES;
             
-            UIImage *ic=[UIImage imageNamed:@"restaurant-icon.gif"];
+            UIImage *ic=[UIImage imageNamed:@"restaurant"];
             UIImageView *img=[[UIImageView alloc]initWithImage:ic];
             customPinView2.leftCalloutAccessoryView=img;
             customPinView2.rightCalloutAccessoryView = rightButton;
@@ -460,7 +492,7 @@ if( [(UISegmentedControl *) sender selectedSegmentIndex]==2)
 
 
 - (IBAction)showPickerDetails:(id)sender {
-    int select=[_pickerView selectedRowInComponent:0];
+    NSUInteger select=[_pickerView selectedRowInComponent:0];
     StationsTable *table=[[ StationsTable alloc]initWithNibName:@"StationsTable" bundle:nil];
     table.location=[locationsToFilter objectAtIndex:select];
      [self presentViewController:table animated:YES completion:nil];

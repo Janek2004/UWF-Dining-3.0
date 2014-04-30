@@ -368,7 +368,7 @@ static xmlChar *SplitQNameReverse(const xmlChar *qname, xmlChar **prefix) {
   result = [NSString stringWithUTF8String:(const char *) chars];
   if (cacheDict) {
     // save the string in the document's string cache
-    CFDictionarySetValue(cacheDict, chars, result);
+    CFDictionarySetValue(cacheDict, chars, (__bridge const void *)(result));
   }
 
   return result;
@@ -854,7 +854,7 @@ static xmlChar *SplitQNameReverse(const xmlChar *qname, xmlChar **prefix) {
 }
 
 - (NSUInteger)hash {
-  return (NSUInteger) (void *) [GDataXMLNode class];
+  return (NSUInteger) (__bridge void *) [GDataXMLNode class];
 }
 
 - (NSMethodSignature *)methodSignatureForSelector:(SEL)selector {

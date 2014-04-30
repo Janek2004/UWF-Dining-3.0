@@ -16,7 +16,7 @@
  */
 
 #import "NautilusMarketXMLAppDelegate.h"
-#import "NautilusMarketXMLViewController.h"
+#import "UpdaterViewController.h"
 #import "MapViewController.h"
 @implementation NautilusMarketXMLAppDelegate
 

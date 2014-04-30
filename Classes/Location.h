@@ -54,11 +54,12 @@
 @property (nonatomic, retain) NSString *currentSubTitle;
 @property(nonatomic, retain) UIImage *image;
 @property(nonatomic, assign)     int locationId;
+
 - (NSString *)title;
 - (NSString *)subtitle;
 -(NSMutableArray *) getPlaces;
 -(CLLocationCoordinate2D)getCoordinate;
 -(void)addPlace:(Location *)place;
--(int)placesCount;
+-(NSUInteger)placesCount;
 
 @end

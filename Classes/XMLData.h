@@ -29,7 +29,7 @@
 	NSMutableArray * locationsArray;
 	NSMutableArray *locationsInfoArray;
     NSMutableDictionary * extraInfo;
-    GDataXMLDocument *doc;
+  //  GDataXMLDocument *doc;
     int locationId;
 }
 @property(nonatomic, retain) GDataXMLDocument *doc;
@@ -40,8 +40,16 @@
 @property(nonatomic, retain) NSString * contactNumber;
 @property(nonatomic, retain) NSMutableDictionary * extraInfo;
 @property(nonatomic, retain) 	NSString *date;
--(void) parsing;
--(void) parsingAdditionalData;
--(id) initWithGData:(GDataXMLDocument *)_doc;
+//-(void) parsing;
+//-(void) parsingAdditionalData;
+/**
+ *  Downloading, parsing and merging data.
+ *
+ *  @param successBlock executed whenever operation is completed
+ *  @param errorBlock   exuecuted whenever operation is interreptued
+ */
+-(void) startDownloadingWithCompletionBlock:(void(^)())successBlock andError: (void(^)(NSError * error))errorBlock;
+
+
 
 @end

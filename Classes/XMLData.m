@@ -20,33 +20,130 @@
 #import "Station.h"
 #import "MealPeriod.h"
 #import "MenuItem.h"
+@interface XMLData()
+{
+    
+}
+
+@property (nonatomic, copy) void (^sucessBlock)(XMLData *data);
+@property (nonatomic, copy) void (^errorBlock)(NSError *error);
+@property(nonatomic,strong) NSOperationQueue * queue;
+@end
+
 
 @implementation XMLData
-@synthesize doc;
+
 @synthesize locationsArray;
 @synthesize locationsInfoArray;
 @synthesize generalInfo, contactEmail, contactNumber;
 @synthesize extraInfo; 
 @synthesize date;
 
--(id) initWithGData:(GDataXMLDocument *)_doc{
-	if((self=[super init]))
-	{
-		self.doc=_doc;
-		locationsArray=[[NSMutableArray alloc]initWithCapacity:0];
+-(instancetype)init{
+    if(self = [super init]){
+        _queue = [NSOperationQueue mainQueue];
+        locationsArray=[[NSMutableArray alloc]initWithCapacity:0];
         locationsInfoArray=[[NSMutableArray alloc]initWithCapacity:0];
         generalInfo=@"";
         contactNumber=@"";
         contactEmail=@"";
         extraInfo=[[NSMutableDictionary alloc]initWithCapacity:0];
-	}
-	return self;
+    }
+    return self;
+}
+
+/**
+ *  Downloading, parsing and merging data.
+ *
+ *  @param successBlock executed whenever operation is completed
+ *  @param errorBlock   exuecuted whenever operation is interreptued
+ */
+-(void) startDownloadingWithCompletionBlock:(void(^)())successBlock andError: (void(^)(NSError * error))errorBlock {
+    self.sucessBlock = [successBlock copy];
+    self.errorBlock = [errorBlock copy];
+    
+    NSURL * url=[[NSURL alloc] initWithString:CHARTWELLURL];
+	NSURLRequest *  request = [[NSURLRequest alloc]initWithURL:url];
+    request = [[NSURLRequest alloc]initWithURL:url cachePolicy:NSURLCacheStorageAllowed timeoutInterval:40];
+   // [url release];
+    
+    [NSURLConnection sendAsynchronousRequest:request queue:  _queue completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
+        if(!connectionError){
+            NSURL * url=[[NSURL alloc] initWithString:APPZMANINFO];
+            NSURLRequest *  request = [[NSURLRequest alloc]initWithURL:url];
+
+            [NSURLConnection sendAsynchronousRequest:request queue:  _queue completionHandler:^(NSURLResponse *uwf_response, NSData *uwf_data, NSError *uwf_connectionError) {
+                if(!uwf_connectionError){
+                    [self mergeData:data andResponseExtraData:uwf_data];
+                }
+                else{
+                    self.errorBlock(connectionError);
+                }
+            }];
+        }
+        else{
+            self.errorBlock(connectionError);
+        }
+    }];
 }
 
 
--(void) parsingAdditionalData{
+-(void)mergeData:(NSData *)responseData andResponseExtraData:(NSData *)responseExtraData{
+    if(responseData!=nil&&responseExtraData!=nil)
+	{
+        NSError * error;
+        GDataXMLDocument * chartwells_xml_data=[[GDataXMLDocument alloc]initWithData:responseData options:0 error:&error];
+		GDataXMLDocument * uwf_xml_data=[[GDataXMLDocument alloc]initWithData:responseExtraData options:0 error:&error];
+        
+        if (uwf_xml_data == nil||chartwells_xml_data==nil) {
+            self.errorBlock(error);
+            NSLog(@"Error%@", error);
+            return;
+        }
+        else{
+            [self parsingChartwellsData:chartwells_xml_data];
+            [self parsingUWFData:uwf_xml_data];
+            
+            // Calling method that will add extra info
+            if(self.locationsArray.count>0)
+            {
+                for(Location *loc in self.locationsArray)
+                {
+                    for(Location *locInfo in self.locationsInfoArray)
+                    {
+                        NSString *string = loc.name;
+                        if ([string rangeOfString:locInfo.name].location == NSNotFound) {
+                        } else {
+                            loc.latitude=locInfo.latitude;
+                            loc.longitude=locInfo.longitude;
+                            loc.info=locInfo.info;
+                            loc.contactEmail=locInfo.contactEmail;
+                            loc.contactNumber=locInfo.contactNumber;
+                            loc.address=locInfo.address;
+                            loc.openHours=locInfo.openHours;
+                        }
+                    }
+                }
+                self.sucessBlock(self);
+            }
+            else{
+                self.errorBlock(nil);
+            }
+        }
+	}
+    else{
+        NSLog(@"Something went terribly wrong");
+    }
+}
+
+
+
+
+
+
+-(void)parsingUWFData:(GDataXMLDocument *)dataXML{
   
-    NSArray *generalInfoArray = [doc.rootElement elementsForName:@"GeneralInfo"];
+    NSArray *generalInfoArray = [dataXML.rootElement elementsForName:@"GeneralInfo"];
     for (GDataXMLElement *gI in generalInfoArray)
     {
         NSArray * descArray= [gI elementsForName: @"Description"];
@@ -70,7 +167,7 @@
         }
     }
         
-    NSArray *locations = [doc.rootElement elementsForName:@"Location"];
+    NSArray *locations = [dataXML.rootElement elementsForName:@"Location"];
     for (GDataXMLElement *location in locations)
     {
         Location *loc=[[Location alloc]init];
@@ -131,15 +228,15 @@
 }
 
 
--(void) parsing{
-	NSArray *dateArray = [doc.rootElement elementsForName:@"Date"];
+-(void)parsingChartwellsData:(GDataXMLDocument *)dataXML{
+	NSArray *dateArray = [dataXML.rootElement elementsForName:@"Date"];
     if([dateArray count]>0)//Message received
 	{
         date=[[dateArray objectAtIndex:0]stringValue];
     }
-    // NSLog(@" Date in the xmlData %@", date);
     
-    NSArray *messageArray = [doc.rootElement elementsForName:@"Message"];
+    
+    NSArray *messageArray = [dataXML.rootElement elementsForName:@"Message"];
 	
     if([messageArray count]>0)//Message received
 	{
@@ -148,7 +245,7 @@
 		if([message isEqualToString:@"Success"])
 		{	
             // Checking locations
-			NSArray *locations = [doc.rootElement elementsForName:@"Location"];
+			NSArray *locations = [dataXML.rootElement elementsForName:@"Location"];
 			if([locations count]>0)
 			{
 				for (GDataXMLElement *location in locations)

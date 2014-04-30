@@ -20,38 +20,13 @@ http://www.binpress.com/license/view/l/1549f46cb77285f4a8188bcfb861d623
 #import <CoreLocation/CoreLocation.h>
 #import <MessageUI/MessageUI.h>
 #import <iAd/iAd.h>
-#import "NautilusMarketXMLViewController.h"
+#import "UpdaterViewController.h"
+
+/**
+ *  Main View Controller displaying all dining venues
+ */
 
 @interface MapViewController : UIViewController <MKMapViewDelegate, ADBannerViewDelegate, CLLocationManagerDelegate, UIPickerViewDelegate, UIPickerViewDataSource, DownloadCompleteDelegate, MFMailComposeViewControllerDelegate>
-{
-    MKMapView *mapView;
-  
-    //  DetailViewController *detailViewController;
-    NSMutableArray *mapAnnotations;
-    NSMutableArray* locationsToFilter;
-    NSMutableArray* locationsToDisplay;
-    NSMutableArray*pickerLocations;
-    CLLocationDegrees zoomLevel;
-    IBOutlet UIToolbar *toolbar;
-    IBOutlet ADBannerView *banner;
-    IBOutlet UITextView *phoneTextView;
-
-    IBOutlet UISegmentedControl * control;
-    CLLocationManager *locationManager;
-    BOOL updated;
-    IBOutlet UIPickerView *_pickerView;
-    IBOutlet UIView *pickerLocationsView;
-    IBOutlet UIView *infoView;
-    NautilusMarketXMLViewController *c;
-    
-    //Info
-    IBOutlet UILabel *phoneLabel;
-    IBOutlet UILabel *emailLabel;
-    IBOutlet UIButton *phoneButton;
-    IBOutlet UIButton *emailButton;
-    IBOutlet UITextView *description;
-    
-}
 - (IBAction)openLink:(id)sender;
 - (IBAction)openFacebook:(id)sender;
                                     
