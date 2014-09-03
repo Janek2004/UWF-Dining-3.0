@@ -298,7 +298,7 @@ if( [(UISegmentedControl *) sender selectedSegmentIndex]==2)
     mapAnnotations=[[NSMutableArray alloc]initWithCapacity:0];
     pickerLocations=[[NSMutableArray alloc]initWithCapacity:0];
     locationsToFilter=[[NSMutableArray alloc]initWithCapacity:0];
-    c=[[UpdaterViewController alloc]initWithNibName:@"NautilusMarketXMLViewController" bundle:nil];
+    c=[[UpdaterViewController alloc]initWithNibName:@"UpdaterViewController" bundle:nil];
     c.delegate=self;
     mapView.showsUserLocation=YES;
     self.mapView.mapType = MKMapTypeStandard; 

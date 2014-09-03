@@ -276,7 +276,7 @@ UpdaterViewController * c;
     
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        c=[[ UpdaterViewController  alloc]initWithNibName:@"NautilusMarketXMLViewController" bundle:nil];
+        c=[[ UpdaterViewController  alloc]initWithNibName:@"UpdaterViewController" bundle:nil];
         c.view.alpha=1;
         [c.activityIndicator startAnimating];
         // Custom initialization.

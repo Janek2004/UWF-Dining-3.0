@@ -15,6 +15,7 @@
 		2899E5220DE3E06400AC0155 /* UpdaterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* UpdaterViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* UpdaterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* UpdaterViewController.m */; };
+		4F764B8519B7903900107E82 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F764B8419B7903900107E82 /* libxml2.dylib */; };
 		8248863917EE40C90022477A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8248863817EE40C90022477A /* Images.xcassets */; };
 		82BA2B7517E69C5B0029E200 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82BA2B7417E69C5B0029E200 /* Default-568h@2x.png */; };
 		82BA2B7717E69C980029E200 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 82BA2B7617E69C980029E200 /* libz.1.2.5.dylib */; };
@@ -67,6 +68,7 @@
 		28D7ACF70DDB3853001CB0EB /* UpdaterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdaterViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* NautilusMarketXML_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NautilusMarketXML_Prefix.pch; sourceTree = "<group>"; };
+		4F764B8419B7903900107E82 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		8248863817EE40C90022477A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = NautilusMarketXML/Images.xcassets; sourceTree = "<group>"; };
 		82BA2B7417E69C5B0029E200 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		82BA2B7617E69C980029E200 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
@@ -122,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F764B8519B7903900107E82 /* libxml2.dylib in Frameworks */,
 				82BA2B7717E69C980029E200 /* libz.1.2.5.dylib in Frameworks */,
 				8445900D13AA56C50033B91B /* MessageUI.framework in Frameworks */,
 				849D41C7137CEAC8007D8338 /* MapKit.framework in Frameworks */,
@@ -228,6 +231,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4F764B8419B7903900107E82 /* libxml2.dylib */,
 				82BA2B7617E69C980029E200 /* libz.1.2.5.dylib */,
 				ED35AA7513C5B0B4007A03EE /* iAd.framework */,
 				84AEF7901348AE0D00B551E6 /* SystemConfiguration.framework */,
@@ -383,7 +387,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -391,15 +395,15 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = NautilusMarketXML_Prefix.pch;
 				GCC_VERSION = "";
-				HEADER_SEARCH_PATHS = /usr/include/libxml2;
-				"HEADER_SEARCH_PATHS[arch=*]" = "/usr/include/libxml2/**";
+				HEADER_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/include/libxml2;
+				"HEADER_SEARCH_PATHS[arch=*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/include/libxml2/**";
 				INFOPLIST_FILE = "NautilusMarketXML-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-lxml2";
 				"OTHER_LDFLAGS[arch=*]" = "-lxml2";
 				PRODUCT_NAME = NautilusMarketXML;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "ad54e27b-4a43-4dc0-8263-ea56832a82d2";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 			};
 			name = Debug;
@@ -411,22 +415,21 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: Laura J. White (96W6Q3D8BE)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Laura J. White (96W6Q3D8BE)";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = NautilusMarketXML_Prefix.pch;
 				GCC_VERSION = "";
-				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				HEADER_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/include/libxml2;
 				INFOPLIST_FILE = "NautilusMarketXML-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-lxml2";
 				"OTHER_LDFLAGS[arch=*]" = "-lxml2";
 				PRODUCT_NAME = NautilusMarketXML;
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=*]" = "76F5DA4F-DC41-4609-A54A-682181D2FFC0";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "76F5DA4F-DC41-4609-A54A-682181D2FFC0";
+				PROVISIONING_PROFILE = "D1BFCB65-D70B-4FC3-B1A2-15A9C48476C4";
+				"PROVISIONING_PROFILE[sdk=*]" = "ad54e27b-4a43-4dc0-8263-ea56832a82d2";
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "armv6 armv7";
 			};
@@ -438,13 +441,13 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_C_LANGUAGE_STANDARD = c99;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
-				PROVISIONING_PROFILE = "76F5DA4F-DC41-4609-A54A-682181D2FFC0";
+				PROVISIONING_PROFILE = "D1BFCB65-D70B-4FC3-B1A2-15A9C48476C4";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -452,17 +455,17 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: Laura J. White (96W6Q3D8BE)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "";
 				GCC_C_LANGUAGE_STANDARD = c99;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
-				PROVISIONING_PROFILE = "76F5DA4F-DC41-4609-A54A-682181D2FFC0";
+				PROVISIONING_PROFILE = "D1BFCB65-D70B-4FC3-B1A2-15A9C48476C4";
 				SDKROOT = iphoneos;
 			};
 			name = Release;
@@ -470,17 +473,16 @@
 		ED64089013BBDFEC001761AA /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Laura J. White (96W6Q3D8BE)";
-				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: Laura J. White (96W6Q3D8BE)";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "";
 				GCC_C_LANGUAGE_STANDARD = c99;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
-				PROVISIONING_PROFILE = "76F5DA4F-DC41-4609-A54A-682181D2FFC0";
+				PROVISIONING_PROFILE = "D1BFCB65-D70B-4FC3-B1A2-15A9C48476C4";
 				SDKROOT = iphoneos;
 			};
 			name = Distribution;
@@ -491,24 +493,23 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Laura J. White (96W6Q3D8BE)";
-				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: Laura J. White (96W6Q3D8BE)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Laura J. White (96W6Q3D8BE)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = NautilusMarketXML_Prefix.pch;
 				GCC_VERSION = "";
-				HEADER_SEARCH_PATHS = /usr/include/libxml2;
-				"HEADER_SEARCH_PATHS[arch=*]" = "/usr/include/libxml2/**";
+				HEADER_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/include/libxml2;
+				"HEADER_SEARCH_PATHS[arch=*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/include/libxml2/**";
 				INFOPLIST_FILE = "NautilusMarketXML-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-lxml2";
 				"OTHER_LDFLAGS[arch=*]" = "-lxml2";
 				PRODUCT_NAME = NautilusMarketXML;
-				PROVISIONING_PROFILE = "76F5DA4F-DC41-4609-A54A-682181D2FFC0";
-				"PROVISIONING_PROFILE[sdk=*]" = "76F5DA4F-DC41-4609-A54A-682181D2FFC0";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "76F5DA4F-DC41-4609-A54A-682181D2FFC0";
+				PROVISIONING_PROFILE = "ad54e27b-4a43-4dc0-8263-ea56832a82d2";
+				"PROVISIONING_PROFILE[sdk=*]" = "ad54e27b-4a43-4dc0-8263-ea56832a82d2";
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "armv6 armv7";
 			};
