@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FED4680A-280A-4B69-BF8E-78C011EEDDFE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NautilusMarketXML</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E71C4193-F466-45CD-8EF0-6E476B5CEF94</key>
+		<string>https://github.com/DJMobileInc/UWFDining.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>NautilusMarketXML.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E71C4193-F466-45CD-8EF0-6E476B5CEF94</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/DJMobileInc/UWFDining.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E71C4193-F466-45CD-8EF0-6E476B5CEF94</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E71C4193-F466-45CD-8EF0-6E476B5CEF94</string>
+			<key>IDESourceControlWCCName</key>
+			<string>UWFDining</string>
+		</dict>
+	</array>
+</dict>
+</plist>
