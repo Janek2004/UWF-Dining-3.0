@@ -306,6 +306,11 @@ if( [(UISegmentedControl *) sender selectedSegmentIndex]==2)
     locationManager = [[CLLocationManager alloc] init];
     locationManager.delegate = self;
     locationManager.desiredAccuracy = kCLLocationAccuracyBest;
+    [locationManager requestWhenInUseAuthorization];
+    
+    
+    
+    //[CLLocationManager ];
     
     // Set a movement threshold for new events.
     locationManager.distanceFilter = 500;    
